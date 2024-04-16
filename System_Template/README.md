@@ -16,3 +16,6 @@ but please try to include metadata either way
 
 ## Naming Conventions
 csv files should be named system_property.csv
+
+## Readme contents
+within each readme, name of compund, SMILES pictures could be recorded
