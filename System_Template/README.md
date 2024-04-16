@@ -18,4 +18,4 @@ but please try to include metadata either way
 csv files should be named system_property.csv
 
 ## Readme contents
-within each readme, name of compund, SMILES pictures could be recorded
+within each readme, name of compound, SMILES pictures could be recorded
