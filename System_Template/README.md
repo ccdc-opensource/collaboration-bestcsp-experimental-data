@@ -10,9 +10,9 @@ There should be a README.md in each System folder, with high level details about
 
 ## Submitting data
 
-In an ideal world, data would be contributed by trackers, branching from this github repository, 
-adding the data to the relevant place, and then submitting a Pull review, setting Isaac Sugden, Jonas Nyman, 
-Doris Braun, Ivo Rietveld, and the working group lead as reviewers. However, it is fine to submit data via email 
+In an ideal world, data would be contributed by trackers, branching from this github repository,
+adding the data to the relevant place, and then submitting a Pull review, setting Isaac Sugden, Jonas Nyman,
+Doris Braun, Ivo Rietveld, and the working group lead as reviewers. However, it is fine to submit data via email
 and we can update the repo, but please try to include metadata either way
 
 ## Naming Conventions
