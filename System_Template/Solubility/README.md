@@ -20,7 +20,7 @@ Self explanatory
 
 ## Comments
 
-Anything the contributor considers pertinent to the reported value (pressure, ambient conditions etc.); please avoid commas and qoute marks!
+Anything the contributor considers pertinent to the reported value (pressure, ambient conditions etc.); please avoid commas and quote marks!
 
 ## Reference/Author
 
