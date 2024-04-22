@@ -1,6 +1,6 @@
 # Format
 
-Template file for recording Enthalpy of Formation Experimental data. The file (csv) contains several columns:
+Template file for recording Infra-Red Spectroscopy Experimental data. The file (csv) contains several columns:
 
 ## Form (REFCODE)
 
@@ -10,17 +10,17 @@ It is expected that this column will contain the common name of the polymorphic 
 
 In Kelvin
 
-## Value (kJ/mol)
+## Value (cm-1)
 
-Enthalpy of Formation, in kJ/mol
+Infra-Red peak
 
 ## Error
 
 Self explanatory
 
-## Comments
+## Comments (Assignments)
 
-Anything the contributor considers pertinent to the reported value (pressure, ambient conditions etc.); please avoid commas and qoute marks!
+Pertinent Information; if possible, peak assignments
 
 ## Reference/Author
 

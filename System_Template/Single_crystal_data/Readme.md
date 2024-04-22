@@ -1,25 +1,27 @@
+# Format
+
 Template file for recording single crystal SCXRD Experimental data. The file (csv) contains several columns:
 
-# Form (REFCODE)
+## Form (REFCODE)
 
-it is expected that this column will contain the common name of the polymorphic form, and if applicable, the CSD Refcode
+It is expected that this column will contain the common name of the polymorphic form, and if applicable, the CSD Refcode
 
-# Temperature
+## Temperature
 
-in Kelvin
+In Kelvin
 
-# R factor/%
+## R factor/%
 
-as a %
+As a %
 
-# Cell Parameters (a b c alpha beta  gamma)
+## Six columns, for Cell Parameters (a b c alpha beta  gamma)
 
-in Angstroms and Degrees
+In Angstroms and Degrees
 
-# Comments
+## Comments
 
 General comments about the experiment that would be useful to know from a modelling perspective
 
-# Reference/author
+## Reference/Author
 
-Name/e-mail of contributing author if unpublished, or doi link
+Name/e-mail of contributing author if unpublished, or DOI link

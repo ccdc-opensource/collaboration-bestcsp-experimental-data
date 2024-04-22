@@ -1,18 +1,18 @@
 # Format
 
-Template file for recording Enthalpy of Formation Experimental data. The file (csv) contains several columns:
+Template file for recording Solubility Experimental data. The file (csv) contains several columns:
 
 ## Form (REFCODE)
 
-It is expected that this column will contain the common name of the polymorphic form, and if applicable, the CSD Refcode
+it is expected that this column will contain the common name of the polymorphic form, and if applicable, the CSD Refcode
 
 ## Temperature (K)
 
 In Kelvin
 
-## Value (kJ/mol)
+## Value (x)
 
-Enthalpy of Formation, in kJ/mol
+Solubility as mole fraction
 
 ## Error
 
