@@ -1,6 +1,6 @@
 # Format
 
-Template file for recording Enthalpy of Formation Experimental data. The file (csv) contains several columns:
+Template file for recording Heat Capacity Experimental data. The file (csv) contains several columns:
 
 ## Form (REFCODE)
 
@@ -10,9 +10,9 @@ It is expected that this column will contain the common name of the polymorphic 
 
 In Kelvin
 
-## Value (kJ/mol)
+## Value (J/K)
 
-Enthalpy of Formation, in kJ/mol
+Heat Capacity in Joules per Kelvin
 
 ## Error
 

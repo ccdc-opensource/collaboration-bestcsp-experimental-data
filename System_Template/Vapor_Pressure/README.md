@@ -1,18 +1,14 @@
 # Format
 
-Template file for recording Enthalpy of Formation Experimental data. The file (csv) contains several columns:
+Template file for recording Vapor Pressure Experimental data. The file (csv) contains several columns:
 
 ## Form (REFCODE)
 
 It is expected that this column will contain the common name of the polymorphic form, and if applicable, the CSD Refcode
 
-## Temperature (K)
+## Value (Pa)
 
-In Kelvin
-
-## Value (kJ/mol)
-
-Enthalpy of Formation, in kJ/mol
+Vapor Pressure in Pascals
 
 ## Error
 
