@@ -12,7 +12,7 @@ In Kelvin
 
 ## Value (x)
 
-Solubility as mole fraction
+Solubility as mole fraction. TBD in Zagreb: we should decide on mole fraction vs mg/ml (of solvent not solution)
 
 ## Error
 
