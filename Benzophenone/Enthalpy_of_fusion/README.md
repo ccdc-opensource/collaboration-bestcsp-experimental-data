@@ -32,4 +32,4 @@ For example, I have used M_Dudek_2024.1 for the data contributed by Marta Dudek 
 ## Outside of columns
 
 The final line in the file will be the Benchmark value. As an example (14/05/2024) I have used the average of temperature and enthalpy, and put the stdev.p in the comments.
-This should be replaced with a more thorough statistical analysis, that gives a higher weighting to data that was part of a set that included repeats, as agreed upon by WG6 before the Paris meeting.
+This should be replaced with a more thorough statistical analysis, that gives a higher weighting to data that was part of a set that included repeats, as agreed upon by WG6 before the Paris meeting
