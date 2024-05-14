@@ -1,6 +1,6 @@
 # Format
 
-Template file for recording Enthalpy of Formation Experimental data. It is expected that data that is contributed without a publication will attempt to follow the protocol
+Template file for recording Enthalpy of Fusion experimental data. It is expected that data that is contributed without a publication will attempt to follow the protocol
 established by WG2 at the Zagreb meeting, with important deviations noted.
 The file (csv) contains several columns:
 
