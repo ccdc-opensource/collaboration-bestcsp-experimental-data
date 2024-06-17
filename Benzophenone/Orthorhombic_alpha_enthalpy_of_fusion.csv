@@ -1,0 +1,39 @@
+BPHENO19,,,,,,,
+Identifier,Property,Value (kJ/mol),"		Std"," 	N",   Name,Reference    ,"	              Comment"
+1,Enthalpy of fusion,18.59028844,,,B_SPINGLER_2024.1,B_SPINGLER_2024.1,
+2,Enthalpy of fusion,18.90188806,,,B_SPINGLER_2024.1,B_SPINGLER_2024.1,
+3,Enthalpy of fusion,18.93833246,,,B_SPINGLER_2024.1,B_SPINGLER_2024.1,
+4,Enthalpy of fusion,18.2495333,,,B_SPINGLER_2024.1,B_SPINGLER_2024.1,
+5,Enthalpy of fusion,18.23859998,,,B_SPINGLER_2024.1,B_SPINGLER_2024.1,
+6,Enthalpy of fusion,18.3041999,,,B_SPINGLER_2024.1,B_SPINGLER_2024.1,
+7,Enthalpy of fusion,18.23495554,,,B_SPINGLER_2024.1,B_SPINGLER_2024.1,
+8,Enthalpy of fusion,18.41535532,,,B_SPINGLER_2024.1,B_SPINGLER_2024.1,
+9,Enthalpy of fusion,17.9306448,,,B_SPINGLER_2024.1,B_SPINGLER_2024.1,
+10,Enthalpy of fusion,18.4,,,M_ Dudek_2024.1,M_ Dudek_2024.1,
+11,Enthalpy of fusion,18.4,,,M_ Dudek_2024.1,M_ Dudek_2024.1,
+12,Enthalpy of fusion,18.4,,,M_ Dudek_2024.1,M_ Dudek_2024.1,
+13,Enthalpy of fusion,18.3,,,M_ Dudek_2024.1,M_ Dudek_2024.1,
+14,Enthalpy of fusion,18.3,,,M_ Dudek_2024.1,M_ Dudek_2024.1,
+15,Enthalpy of fusion,18.3,,,M_ Dudek_2024.1,M_ Dudek_2024.1,
+16,Enthalpy of fusion,18.4,,,M_ Dudek_2024.1,M_ Dudek_2024.1,
+17,Enthalpy of fusion,18.3,,,M_ Dudek_2024.1,M_ Dudek_2024.1,
+18,Enthalpy of fusion,18.3,,,M_ Dudek_2024.1,M_ Dudek_2024.1,
+19,Enthalpy of fusion,18.2,,,M_ Dudek_2024.1,M_ Dudek_2024.1,
+20,Enthalpy of fusion,18.4,,,M_ Dudek_2024.1,M_ Dudek_2024.1,
+21,Enthalpy of fusion,18.2,,,M_ Dudek_2024.1,M_ Dudek_2024.1,
+22,Enthalpy of fusion,19.3,,,2023_COST_Data,Kristof Vanhecke (Gent),m = 13.6 mg
+23,Enthalpy of fusion,19.3,,,2023_COST_Data,Mirta Rubcic/Josip Pozar (University of Zagreb) ,Their comment: Since there was no detailed instructions; I did two measurements (5 deg/min and 10 deg/min heating rates) under the dynamic nitrogen stream (50 ml/min). Measurements were performed on a TA instrument (DSC25) using standard type of TA aluminium crucibles (pan+lid)
+24,Enthalpy of fusion,19.3,,,2023_COST_Data,Mirta Rubcic/Josip Pozar (University of Zagreb) ,
+25,Enthalpy of fusion,18.5,,,2023_COST_Data,Marta Dudek (Polish Academy of Sciences),
+26,Enthalpy of fusion,19.6,,,2023_COST_Data,Michela Romanini (Barcelona) ,m = 3.72 mg
+27,Enthalpy of fusion,18.2,,,2023_COST_Data,Agris Berzins / Kristine Krikle (Latvia),
+28,Enthalpy of fusion,18.4,,,2023_COST_Data,Doris Braun (University of Innsbruck),
+29,Enthalpy of fusion,18.2,,,2023_COST_Data,Doris Braun (University of Innsbruck),
+30,Enthalpy of fusion,18.6,,,Ref_data,10.1021/acs.jced.6b00523,
+31,Enthalpy of fusion,16.74,,,Ref_data,https://doi.org/10.1515/zpch-1932-16103,1932 citation
+32,Enthalpy of fusion,18.606,,,Ref_data,https://doi.org/10.1016/S0021-9614(02)00261-6,error quoted as 0.018 (value)
+33,Enthalpy of fusion,18.19,,,Ref_data,https://doi.org/10.1016/0021-9614(83)90151-9,error quoted as 0.05
+34,Enthalpy of fusion,18.47,,,Ref_data,https://doi.org/10.1006/jcht.2002.0976,error quoted   0.01 (temp) and 0.02 (value)
+35,Enthalpy of fusion,13.55,,,Ref_data,https://doi.org/10.1016/j.molstruc.2008.02.045,Enthalpy reported in the collected document from the Paris drive but can't see in the paper itself. Assume its calculated wrongly
+36,Enthalpy of fusion,18.6,,,Ref_data,https://doi.org/10.1021/acs.jced.6b00523,error quoted 0.3
+37,Enthalpy of fusion,19.3,,,Ref_data,https://doi.org/10.1038/s41598-023-38985-y, error quoted 0.4 (temp) and  0.1 (value)
