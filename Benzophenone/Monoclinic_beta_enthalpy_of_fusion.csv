@@ -1,0 +1,10 @@
+BPHENO03,,,,,,,
+Identifier,Property,Value (kJ/mol),"		Std"," 	N",   Name,Reference    ,"	              Comment"
+1,         Enthalpy of fusion,13.8,        ,,  Dudek,       M_Dudek_2024.1,
+2,         Enthalpy of fusion,13.8,        ,,  Dudek,       M_Dudek_2024.1,
+3,         Enthalpy of fusion,14.3,        ,,  Dudek,       M_Dudek_2024.1,
+4,         Enthalpy of fusion,14.2,        ,,  Dudek,       M_Dudek_2024.1,
+5,         Enthalpy of fusion,13.8,        ,,  Dudek,       M_Dudek_2024.1,
+6,         Enthalpy of fusion,14.1,        ,,  Dudek,       M_Dudek_2024.1,
+7,         Enthalpy of fusion,13.8,        ,,  Neumann, https://doi.org/10.1515/zpch-1932-16103 ,
+8,         Enthalpy of fusion,14.5,0.15,,  Stejfa,  https://doi.org/10.1021/acs.jced.6b00523,
