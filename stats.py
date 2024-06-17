@@ -81,7 +81,7 @@ for filename in files:
     homo = results.test_homogeneity()
     if homo.pvalue < 0.05:
         print("Warning, significant inhomogeneity detected!")
-    print(homo)    
+    print(homo)
     fig = results.plot_forest()
     fig.tight_layout()
     fig.savefig(filename.replace('.csv', '') + '.png')
