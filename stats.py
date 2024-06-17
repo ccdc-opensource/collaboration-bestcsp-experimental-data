@@ -1,19 +1,19 @@
 # imports
-import glob, sys, os
+import glob
+import sys
 import numpy as np
 from statsmodels.stats.meta_analysis import combine_effects
 
 
 files = glob.glob('%s\\*.csv' % (sys.argv[1]))
 print("Found", len(files), "csv files:")
-for filename in files: print(filename)
-
-
+for filename in files:
+    print(filename)
 
 for filename in files:
     mean_effect = np.array([])
     var_effect = np.array([])
-    #nobs = np.array([]) # Number of observations for each lab.
+    # nobs = np.array([]) # Number of observations for each lab.
     # And names/labels
     idx = []
     print ("Reading", filename)
@@ -86,4 +86,3 @@ for filename in files:
     fig.tight_layout()
     fig.savefig(filename.replace('.csv', '') + '.png')
     # Plot results
-    
