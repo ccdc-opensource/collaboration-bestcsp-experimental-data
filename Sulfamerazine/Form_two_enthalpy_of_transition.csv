@@ -1,24 +1,24 @@
 SLFNMA01,,,,,,,
-Identifier,Property,"Value (kJ/mol)"," Std"," 	N",     Name,	  Reference    ,"	 Comment"
-1,  Enthalpy of transition,2.95,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,	10 K/min
-2,  Enthalpy of transition,2.94,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,	10 K/min
-3,  Enthalpy of transition,2.84,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,	10 K/min
-4,  Enthalpy of transition,2.93,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,	10 K/min
-5,  Enthalpy of transition,2.78,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,	10 K/min
-6,  Enthalpy of transition,2.91,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,	5 K/min
-7,  Enthalpy of transition,2.91,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,	5 K/min
-8,  Enthalpy of transition,2.96,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,	5 K/min
-9,  Enthalpy of transition,3.03,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,	5 K/min
-10, Enthalpy of transition,2.93,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,	5 K/min
-11, Enthalpy of transition,2.58,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,	1 K/min
-12, Enthalpy of transition,2.53,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,	1 K/min
-13, Enthalpy of transition,2.56,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,	1 K/min
-14, Enthalpy of transition,2.52,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,	1 K/min
-15, Enthalpy of transition,2.41,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,	1 K/min
+Identifier,Property,Value (kJ/mol), Std," 	N",     Name,"	  Reference    ","	 Comment"
+1,  Enthalpy of transition,2.95,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,"	10 K/min"
+2,  Enthalpy of transition,2.94,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,"	10 K/min"
+3,  Enthalpy of transition,2.84,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,"	10 K/min"
+4,  Enthalpy of transition,2.93,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,"	10 K/min"
+5,  Enthalpy of transition,2.78,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,"	10 K/min"
+6,  Enthalpy of transition,2.91,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,"	5 K/min"
+7,  Enthalpy of transition,2.91,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,"	5 K/min"
+8,  Enthalpy of transition,2.96,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,"	5 K/min"
+9,  Enthalpy of transition,3.03,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,"	5 K/min"
+10, Enthalpy of transition,2.93,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,"	5 K/min"
+11, Enthalpy of transition,2.58,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,"	1 K/min"
+12, Enthalpy of transition,2.53,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,"	1 K/min"
+13, Enthalpy of transition,2.56,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,"	1 K/min"
+14, Enthalpy of transition,2.52,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,"	1 K/min"
+15, Enthalpy of transition,2.41,,1,  2024_COST_Data,W_Wood_Innsbruck_2024,"	1 K/min"
 16, Enthalpy of transition,3.12,0.01,3,  Ref_data,https://doi.org/10.1002/jps.10100,
 17, Enthalpy of transition,1.4, ,1,  Ref_data,https://doi.org/10.1107/S0108768192000910, 5 K/min
 18, Enthalpy of transition,2.96,,1,  Ref_data,https://doi.org/10.1016/j.ijpharm.2011.05.058, 2 K/min
 19, Enthalpy of transition,2.88,,1,  Ref_data,https://doi.org/10.1016/j.ijpharm.2011.05.058, 5 K/min
 20, Enthalpy of transition,2.65,,1,  Ref_data,https://doi.org/10.1016/j.ijpharm.2011.05.058, 10 K/min
-21, Enthalpy of transition,2.60,,1,  Ref_data,https://doi.org/10.1016/j.ijpharm.2011.05.058, 40 K/min
+21, Enthalpy of transition,2.6,,1,  Ref_data,https://doi.org/10.1016/j.ijpharm.2011.05.058, 40 K/min
 22, Enthalpy of transition,2.54,,1,  Ref_data,https://doi.org/10.1016/j.ijpharm.2011.05.058, 100 K/min

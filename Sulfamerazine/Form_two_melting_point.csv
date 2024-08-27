@@ -1,7 +1,7 @@
 SLFNMA01,,,,,,,
-Identifier,"	Property","		Value (K)","	Std"," 	N",   	Name,       		Reference                ,"Comment"
-#1,				Melting point,		213.0,	 ,			1,			Ref_data,		   	  https://doi.org/10.1002/jps.10100,		
-2,        		Melting point,		212.6,       ,			1,  		Ref_data,     		  https://doi.org/10.1016/j.ijpharm.2011.05.058, 5 K/min
-3,        		Melting point,		212.8,       ,			1,  		Ref_data,     		  https://doi.org/10.1016/j.ijpharm.2011.05.058, 10 K/min
-4,        		Melting point,		212.5,       ,			1,  		Ref_data,     		  https://doi.org/10.1016/j.ijpharm.2011.05.058, 40 K/min
-5,        		Melting point,		211.9,       ,			1,  		Ref_data,     		  https://doi.org/10.1016/j.ijpharm.2011.05.058, 100 K/min
+Identifier,"	Property","		Value (K)","	Std"," 	N","   	Name","       		Reference                ",Comment
+1,"				Melting point","		213.0","	 ","			1","			Ref_data","		   	  https://doi.org/10.1002/jps.10100","		"
+2,"        		Melting point","		212.6",       ,"			1","  		Ref_data","     		  https://doi.org/10.1016/j.ijpharm.2011.05.058", 5 K/min
+3,"        		Melting point","		212.8",       ,"			1","  		Ref_data","     		  https://doi.org/10.1016/j.ijpharm.2011.05.058", 10 K/min
+4,"        		Melting point","		212.5",       ,"			1","  		Ref_data","     		  https://doi.org/10.1016/j.ijpharm.2011.05.058", 40 K/min
+5,"        		Melting point","		211.9",       ,"			1","  		Ref_data","     		  https://doi.org/10.1016/j.ijpharm.2011.05.058", 100 K/min
