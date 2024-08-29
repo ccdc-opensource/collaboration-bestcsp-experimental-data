@@ -26,7 +26,7 @@ for filename in files:
         try:
             id, prop, value, s, n, author = [s.strip() for s in line.split(',')][:6]
         except Exception as e:
-            print("Some issue with line: ", line, " Error: ",e) 
+            print("Some issue with line: ", line, " Error: ", e)
         # Find out how many data points there are for each lab...
         if "#" in id:
             continue
