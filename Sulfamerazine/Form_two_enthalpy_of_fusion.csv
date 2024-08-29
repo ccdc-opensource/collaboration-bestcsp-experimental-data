@@ -1,6 +1,3 @@
 SLFNMA01,,,,,,,
-Identifier,"	Property","		Value (kJ/mol)","	Std"," 	N",   	Name,       		Reference                ,"Comment"
-1,        		Melting point,		0.05,       ,			1,  		Ref_data,     		  https://doi.org/10.1016/j.ijpharm.2011.05.058, 5 K/min
-2,        		Melting point,		0.06,       ,			1,  		Ref_data,     		  https://doi.org/10.1016/j.ijpharm.2011.05.058, 10 K/min
-3,        		Melting point,		0.41,       ,			1,  		Ref_data,     		  https://doi.org/10.1016/j.ijpharm.2011.05.058, 40 K/min
-4,        		Melting point,		1.14,       ,			1,  		Ref_data,     		  https://doi.org/10.1016/j.ijpharm.2011.05.058, 100 K/min
+Identifier,"	Property","		Value (kJ/mol)","	Std"," 	N","   	Name","       		Reference                ",Comment
+1,Enthalpy of Fusion,0.415,0.511501059,4,Li_11,"     		  https://doi.org/10.1016/j.ijpharm.2011.05.058", Combined different heating rates

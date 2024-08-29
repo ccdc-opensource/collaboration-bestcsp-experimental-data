@@ -1,19 +1,17 @@
 SLFNMA02,,,,,,,
-Identifier,"	Property","		Value (K)","	Std"," 	N",   	Name,       		Reference                ,"Comment"
-1,			Melting point,		236.1,			,		1,		2024_COST_Data,		W_Wood_Innsbruck_2024,		10 K/min
-2,			Melting point,		236.1,			,		1,		2024_COST_Data,		W_Wood_Innsbruck_2024,		10 K/min
-3,			Melting point,		236.2,      	,		1,		2024_COST_Data,		W_Wood_Innsbruck_2024,		10 K/min
-4,			Melting point,		236.2,        	,		1,		2024_COST_Data,		W_Wood_Innsbruck_2024,		10 K/min
-5,			Melting point,		236.2,        	,		1,		2024_COST_Data,		W_Wood_Innsbruck_2024,		10 K/min
-6,			Melting point,		236.6,        	,		1,		2024_COST_Data,		W_Wood_Innsbruck_2024,		10 K/min after FII->I transition
-7,			Melting point,		236.0,        	,		1,		2024_COST_Data,		W_Wood_Innsbruck_2024,		10 K/min after FII->I transition
-8,			Melting point,		236.6,        	,		1,		2024_COST_Data,		W_Wood_Innsbruck_2024,		10 K/min after FII->I transition
-9,			Melting point,		236.6,        	,		1,		2024_COST_Data,		W_Wood_Innsbruck_2024,		10 K/min after FII->I transition
-10,			Melting point,		236.5,        	,		1,		2024_COST_Data,		W_Wood_Innsbruck_2024,		10 K/min after FII->I transition
-11,			Melting point,		237.05,        0.04,	3,		Ref_data,			https://doi.org/10.1002/jps.10100,
-12,			Melting point,		236,        	,		,		Ref_data,		   	https://doi.org/10.1002/jps.2600610104, 10 K/min
-13,			Melting point,		236.0,			,		1,		Ref_data,  			https://doi.org/10.1016/j.ijpharm.2011.05.058, 2 K/min
-14,			Melting point,		236.2,			,		1,		Ref_data,  			https://doi.org/10.1016/j.ijpharm.2011.05.058, 5 K/min
-15, 		Melting point,		236.8,			,		1,		Ref_data,  			https://doi.org/10.1016/j.ijpharm.2011.05.058, 10 K/min
-16,			Melting point,		236.4,			,		1,		Ref_data,  			https://doi.org/10.1016/j.ijpharm.2011.05.058, 40 K/min
-17,			Melting point,		236.4,			,		1,		Ref_data,  			https://doi.org/10.1016/j.ijpharm.2011.05.058, 100 K/min
+Identifier,Property,Value (K),Std, N, Name, Reference,Comment
+1,Melting point,509.25,,1,Wood,W_Wood_Innsbruck_2024,10 K/min
+2,Melting point,509.25,,1,Wood,W_Wood_Innsbruck_2024,10 K/min
+3,Melting point,509.35,,1,Wood,W_Wood_Innsbruck_2024,10 K/min
+4,Melting point,509.35,,1,Wood,W_Wood_Innsbruck_2024,10 K/min
+5,Melting point,509.35,,1,Wood,W_Wood_Innsbruck_2024,10 K/min
+6,Melting point,509.75,,1,Wood,W_Wood_Innsbruck_2024,10 K/min after FII->I transition
+7,Melting point,509.15,,1,Wood,W_Wood_Innsbruck_2024,10 K/min after FII->I transition
+8,Melting point,509.75,,1,Wood,W_Wood_Innsbruck_2024,10 K/min after FII->I transition
+9,Melting point,509.75,,1,Wood,W_Wood_Innsbruck_2024,10 K/min after FII->I transition
+10,Melting point,509.65,,1,Wood,W_Wood_Innsbruck_2024,10 K/min after FII->I transition
+11,Melting point,510.2,0.04,3,Zhang_02,https://doi.org/10.1002/jps.10100,
+12,Melting point,509.15,,1,Yang_72, https://doi.org/10.1002/jps.2600610104, 10 K/min
+13,Melting point,509.51,0.296647939,4,Li_11,https://doi.org/10.1016/j.ijpharm.2011.05.058, 2 K/min
+14,Melting point,506.35,,1,Khattab_83,https://doi.org/10.1016/0040-6031(83)80280-9,
+15,Melting point,509.15,,1,Kuhnert-Brandstätter_69,https://doi.org/10.1007/BF01271407,
