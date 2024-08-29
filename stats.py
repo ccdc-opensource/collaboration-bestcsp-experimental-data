@@ -23,7 +23,10 @@ for filename in files:
     ndict = dict()
     for line in data[2:]:
         # print([s.strip() for s in line.split(',')])
-        id, prop, value, s, n, author = [s.strip() for s in line.split(',')][:6]
+        try:
+            id, prop, value, s, n, author = [s.strip() for s in line.split(',')][:6]
+        except Exception as e:
+            print("Some issue with line: ", line, " Error: ",e) 
         # Find out how many data points there are for each lab...
         if "#" in id:
             continue
@@ -48,20 +51,19 @@ for filename in files:
                 id, prop, value, s, n, author = [s.strip() for s in line.split(',')][:6]
                 if author == name:
                     if s != '':
-                        print("has standard deviation 1")
+                        print("has standard deviation")
                         mean_effect = np.append(mean_effect, np.array(float(value)))
                         var_effect = np.append(var_effect, np.array((float(s)**2)))
                         idx.append(name)
-                        print(name, "OK, data added. 1")
+                        print(name, "OK, data added.")
                         adding = False
                     else:
                         values.append(float(value))
-                        print(values, np.var(np.array(values)))
             if adding:
                 mean_effect = np.append(mean_effect, np.mean(values))
                 var_effect = np.append(var_effect, np.var(np.array(values)))
                 idx.append(name)
-                print(name, "OK, data added 2")
+                print(name, "OK, data added")
         else:
             # Could be too few data or there is a standard deviation.
             for line in data[2:]:
@@ -69,11 +71,11 @@ for filename in files:
                 id, prop, value, s, n, author = [s.strip() for s in line.split(',')][:6]
                 if author == name:
                     if s != '':
-                        print("has standard deviation 2")
+                        print("has standard deviation")
                         mean_effect = np.append(mean_effect, np.array(float(value)))
                         var_effect = np.append(var_effect, np.array((float(s)**2)))
                         idx.append(name)
-                        print(name, "OK, data added. 3")
+                        print(name, "OK, data added.")
                     else:
                         combined_names.append(name)
                         combined_values.append(float(value))
@@ -99,5 +101,4 @@ for filename in files:
     fig = results.plot_forest()
     fig.tight_layout()
     fig.savefig(filename.replace('.csv', '') + '.png')
-    exit()
     # Plot results
