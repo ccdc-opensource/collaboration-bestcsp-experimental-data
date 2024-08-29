@@ -56,12 +56,12 @@ for filename in files:
                         adding = False
                     else:
                         values.append(float(value))
-                        print(values,np.var(np.array(values)))
+                        print(values, np.var(np.array(values)))
             if adding:
                 mean_effect = np.append(mean_effect, np.mean(values))
                 var_effect = np.append(var_effect, np.var(np.array(values)))
                 idx.append(name)
-                print(name, "OK, data added 2")    
+                print(name, "OK, data added 2")
         else:
             # Could be too few data or there is a standard deviation.
             for line in data[2:]:
@@ -78,7 +78,7 @@ for filename in files:
                         combined_names.append(name)
                         combined_values.append(float(value))
     if len(combined_values) > 2:
-#        idx.append(', '.join(set(combined_names)))
+        #        idx.append(', '.join(set(combined_names)))
         idx.append("Literature data")
         print("Combining data for", set(combined_names))
         mean_effect = np.append(mean_effect, np.mean(combined_values))
