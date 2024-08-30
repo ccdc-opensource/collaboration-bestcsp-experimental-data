@@ -1,6 +1,7 @@
 # Manual for filling in csv files
 
 Alongside the Readme in this directory, this Manual is intended to show how the csv files should be filled in, in a standardised way. There are probably 3 cases for reporting a value:
+
 - If data has been generated during the Cost action (i.e. unpublished), then its almost certainly easier to fill in each data point on each line, leaving standard deviation and Number columns blank.
 The stats.py script will collect all data points labelled with the same "Name" in the name column, and automatically calculate the mean and standard deviation for that set of data.
 - If its published data, there will likely be one value quoted, with standard deviation and the number of data points collected reported somewhere; these can be filled in on one line and the code will
