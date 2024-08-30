@@ -6,7 +6,6 @@ from statsmodels.stats.meta_analysis import combine_effects
 from statsmodels.graphics.dotplots import dot_plot
 import matplotlib.pyplot as plt
 
-
 files = glob.glob('%s\\*.csv' % (sys.argv[1]))
 print("Found", len(files), "csv files:")
 for filename in files:
