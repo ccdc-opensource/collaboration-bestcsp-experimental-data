@@ -3,6 +3,8 @@ import glob
 import sys
 import numpy as np
 from statsmodels.stats.meta_analysis import combine_effects
+from statsmodels.graphics.dotplots import dot_plot
+import matplotlib.pyplot as plt
 
 
 files = glob.glob('%s\\*.csv' % (sys.argv[1]))
@@ -101,4 +103,12 @@ for filename in files:
     fig = results.plot_forest()
     fig.tight_layout()
     fig.savefig(filename.replace('.csv', '') + '.png')
+    res_df = results.summary_frame()
+    res_df.drop(res_df.tail(2).index,inplace=True)
+    hw = np.abs(res_df[["ci_low", "ci_upp"]] - res_df[["eff"]].values)
+    fig1 = dot_plot(points=res_df["eff"], intervals=hw,
+                lines=res_df.index, line_order=res_df.index)
+    fig1.tight_layout()
+    fig1.savefig(filename.replace('.csv', '') + '_without_wls.png')
+#    exit()
     # Plot results
