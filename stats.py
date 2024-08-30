@@ -22,6 +22,9 @@ for filename in files:
     data = f.readlines()
     f.close()
     ndict = dict()
+    best_rep = data[0].split(',') [0]
+    Units = data[1].split(',') [2].split() [-1].strip(')').strip('(')
+    print(best_rep)
     for line in data[2:]:
         # print([s.strip() for s in line.split(',')])
         try:
@@ -102,11 +105,16 @@ for filename in files:
     fig = results.plot_forest()
     fig.tight_layout()
     fig.savefig(filename.replace('.csv', '') + '.png')
+    fig1, ax = plt.subplots()
     res_df = results.summary_frame()
     res_df.drop(res_df.tail(2).index,inplace=True)
     hw = np.abs(res_df[["ci_low", "ci_upp"]] - res_df[["eff"]].values)
     fig1 = dot_plot(points=res_df["eff"], intervals=hw,
-                lines=res_df.index, line_order=res_df.index)
+                lines=res_df.index, line_order=res_df.index,ax=ax)
+    Title = sys.argv[1].strip('\\').strip('/') + " form " + best_rep
+    x_title = prop + " (" + Units + ")"
+    ax.set_xlabel(x_title)
+    ax.set_title(Title)
     fig1.tight_layout()
     fig1.savefig(filename.replace('.csv', '') + '_without_wls.png')
 #    exit()
