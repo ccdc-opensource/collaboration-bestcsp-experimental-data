@@ -1,0 +1,4 @@
+SLFNMA01,,,,,,,,,,,
+Identifier,"	Property","		Value (K)","	Std"," 	N","   	Name","       		Reference                ",Comment,,,,
+1,"				Melting point",486.15,,1,Zhang_02,"		   	  https://doi.org/10.1002/jps.10100","		",,,,
+2,"        		Melting point",485.60,0.387298335,4,Li_11,"     		  https://doi.org/10.1016/j.ijpharm.2011.05.058",collected results at different heating rates,,,,

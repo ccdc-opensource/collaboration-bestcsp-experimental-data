@@ -3,7 +3,8 @@ import glob
 import sys
 import numpy as np
 from statsmodels.stats.meta_analysis import combine_effects
-
+from statsmodels.graphics.dotplots import dot_plot
+import matplotlib.pyplot as plt
 
 files = glob.glob('%s\\*.csv' % (sys.argv[1]))
 print("Found", len(files), "csv files:")
@@ -21,10 +22,18 @@ for filename in files:
     data = f.readlines()
     f.close()
     ndict = dict()
+    best_rep = data[0].split(',')[0]
+    Units = data[1].split(',')[2].split()[-1].strip(')').strip('(')
+    print(best_rep)
     for line in data[2:]:
         # print([s.strip() for s in line.split(',')])
-        id, prop, value, s, n, author = [s.strip() for s in line.split(',')][:6]
+        try:
+            id, prop, value, s, n, author = [s.strip() for s in line.split(',')][:6]
+        except Exception as e:
+            print("Some issue with line: ", line, " Error: ", e)
         # Find out how many data points there are for each lab...
+        if "#" in id:
+            continue
         if author not in ndict:
             if n == '':
                 ndict[author] = 1
@@ -41,14 +50,24 @@ for filename in files:
         values = []
         print(name, "has", ndict[name], "data points")
         if ndict[name] > 3:
+            adding = True
             for line in data[2:]:
                 id, prop, value, s, n, author = [s.strip() for s in line.split(',')][:6]
                 if author == name:
-                    values.append(float(value))
-            mean_effect = np.append(mean_effect, np.mean(values))
-            var_effect = np.append(var_effect, np.var(np.array(values)))
-            idx.append(name)
-            print(name, "OK, data added")    
+                    if s != '':
+                        print("has standard deviation")
+                        mean_effect = np.append(mean_effect, np.array(float(value)))
+                        var_effect = np.append(var_effect, np.array((float(s)**2)))
+                        idx.append(name)
+                        print(name, "OK, data added.")
+                        adding = False
+                    else:
+                        values.append(float(value))
+            if adding:
+                mean_effect = np.append(mean_effect, np.mean(values))
+                var_effect = np.append(var_effect, np.var(np.array(values)))
+                idx.append(name)
+                print(name, "OK, data added")
         else:
             # Could be too few data or there is a standard deviation.
             for line in data[2:]:
@@ -65,7 +84,8 @@ for filename in files:
                         combined_names.append(name)
                         combined_values.append(float(value))
     if len(combined_values) > 2:
-        idx.append(', '.join(set(combined_names)))
+        #        idx.append(', '.join(set(combined_names)))
+        idx.append("Literature data")
         print("Combining data for", set(combined_names))
         mean_effect = np.append(mean_effect, np.mean(combined_values))
         var_effect = np.append(var_effect, np.var(combined_values))
@@ -85,4 +105,17 @@ for filename in files:
     fig = results.plot_forest()
     fig.tight_layout()
     fig.savefig(filename.replace('.csv', '') + '.png')
+    fig1, ax = plt.subplots()
+    res_df = results.summary_frame()
+    res_df.drop(res_df.tail(2).index, inplace=True)
+    hw = np.abs(res_df[["ci_low", "ci_upp"]] - res_df[["eff"]].values)
+    fig1 = dot_plot(points=res_df["eff"], intervals=hw,
+                    lines=res_df.index, line_order=res_df.index, ax=ax)
+    Title = sys.argv[1].strip('\\').strip('/') + " form " + best_rep
+    x_title = prop + " (" + Units + ")"
+    ax.set_xlabel(x_title)
+    ax.set_title(Title)
+    fig1.tight_layout()
+    fig1.savefig(filename.replace('.csv', '') + '_without_wls.png')
+#    exit()
     # Plot results
