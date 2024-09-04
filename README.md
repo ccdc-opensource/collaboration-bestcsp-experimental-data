@@ -14,6 +14,8 @@ There is also a Python script in the top directory for calculating consensus mea
 The script requires the modules statsmodels and matplotlib; it may be simpler to make a conda environment and install those modules,
 but I have included environment.yaml as a snapshot for the pictures used in the Paris meeting (20/06/2024).
 
+## Filling in CSV files
+
 In writing the csv files, please consider the following guidance.
 Each line can contain either a single data point, or the mean value and standard deviation of several data points from the same experiment/lab.
 It is very important that the uncertainty or error bar written in the csv file is one sample standard deviation.
@@ -42,27 +44,12 @@ Make sure that the data you enter are for that polymorph.
 
 Each line in the csv file then contaisn the following fields, separated by commas:
 
-Id
-We number the data, so that it becomes easier to refer to a specific data point by specifying the filename and row number.
-
-Physical property
-Some description of what was measured, the physical property. 
-
-Value
-This is the measured value for the physical property at that temperature, pressure
-
-Unit
-SI unit for the measured value
-
-Std
-The sample standard deviation, if available.
-
-N
-The number of data points, if a mean value was entered.
-
-Name
-The name of the scientist or the PI of the lab that did the measurements.
-The main importance is traceability, we need to keep track of where tha data came from.
+- Id: We number the data, so that it becomes easier to refer to a specific data point by specifying the filename and row number.
+- Physical property: Some description of what was measured, the physical property. 
+- Value: This is the measured value for the physical property at that temperature, pressure
+- Unit: SI unit for the measured value
+- Std: The sample standard deviation, if available.
+- N: The number of data points, if a mean value was entered.
+- Name: The name of the scientist or the PI of the lab that did the measurements. The main importance is traceability, we need to keep track of where tha data came from.
 For literature data, add the year it was published as Name_YY. For newly collected data, omit the year.
-Comment, Ref
-Free text comments, DOI, experimental conditions or other info.
+- Comment, Ref: Free text comments, DOI, experimental conditions or other info.
