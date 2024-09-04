@@ -1,5 +1,5 @@
 Phenylpiracetam Form B
-Identifier,	Property,		     Value,		  Std, 	N,       Name,	              Comment,            Reference 
+Identifier,	Property,		  Value (kJ/mol), Std, 	N,       Name,	              Comment,            Reference 
 1         , Enthalpy of fusion,    23.94923,     ,        ,     ,       Kons,      Artis Kons e-mail 3 Sept 2024,         
 2         , Enthalpy of fusion,    24.34864,     ,        ,     ,       Kons,      Artis Kons e-mail 3 Sept 2024, 
 3         , Enthalpy of fusion,    24.63892,     ,        ,     ,       Kons,      Artis Kons e-mail 3 Sept 2024, 
@@ -10,4 +10,5 @@ Identifier,	Property,		     Value,		  Std, 	N,       Name,	              Comment
 8         , Enthalpy of fusion,    24.95103,     ,        ,     ,       Kons,      Artis Kons e-mail 3 Sept 2024, 
 9         , Enthalpy of fusion,    23.92959,     ,        ,     ,       Kons,      Artis Kons e-mail 3 Sept 2024, 
 10        , Enthalpy of fusion,    23.32284,     ,        ,     ,       Kons,      Artis Kons e-mail 3 Sept 2024, 
-11        , Enthalpy of fusion,    23.97760,     ,        ,     ,       Kons,      Artis Kons e-mail 3 Sept 2024, 
+11        , Enthalpy of fusion,    23.97760,     ,        ,     ,       Kons,      Artis Kons e-mail 3 Sept 2024,
+12        ,  Enthalpy of fusion,   22.4    ,  0.3,        ,     ,   Rekis_17,                                   , 10.1021/acs.cgd.6b0186
