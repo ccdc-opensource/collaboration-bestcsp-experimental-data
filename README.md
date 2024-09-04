@@ -1,12 +1,12 @@
 # collaboration-bestcsp-experimental-data
 
-Sharing of experimental data for validating computational methods as part of the BEST-CSP project, 
+Sharing of experimental data for validating computational methods as part of the BEST-CSP project,
 see <https://www.cost.eu/actions/CA22107> and <https://best-csp.eu/>
 
 This repository contains individual folders for each of the compounds considered in this Action,
 and an example "System_template" to illustrate the format.
 
-Within each folder are .csv files for each polymorph, for standardised recording of data. 
+Within each folder are .csv files for each polymorph, for standardised recording of data.
 Keeping the experimental data to a standard format will aid in the statistical treatment of results,
 and csv files are machine readable, facilitating plotting and tabulating the data.
 
