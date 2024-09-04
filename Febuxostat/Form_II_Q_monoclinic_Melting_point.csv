@@ -1,6 +1,6 @@
 HIQQAB,,,,,,,
-Identifier,Property,Value (K),"		Std"," 	N",   Name,Reference    ,"	              Comment"
-1,Melting Point,481,,,Pop,Pop_2024_COST_data,30K/Min
-2,Melting Point,482.09,,,Pop,Pop_2024_COST_data,30K/Min
-3,Melting Point,481.78,,,Pop,Pop_2024_COST_data,40K/Min
-4,Melting Point,483.32,,,Pop,Pop_2024_COST_data,40K/Min
+Identifier, Property, Value (K),		Std, 	N,   Name, Reference    ,	              Comment
+1, Melting Point, 481, , , Pop, Pop_2024_COST_data, 30K/Min
+2, Melting Point, 482.09, , , Pop, Pop_2024_COST_data, 30K/Min
+3, Melting Point, 481.78, , , Pop, Pop_2024_COST_data, 40K/Min
+4, Melting Point, 483.32, , , Pop, Pop_2024_COST_data, 40K/Min
