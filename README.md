@@ -45,11 +45,11 @@ Make sure that the data you enter are for that polymorph.
 Each line in the csv file then contaisn the following fields, separated by commas:
 
 - Id: We number the data, so that it becomes easier to refer to a specific data point by specifying the filename and row number.
-- Physical property: Some description of what was measured, the physical property. 
-- Value: This is the measured value for the physical property at that temperature, pressure
-- Unit: SI unit for the measured value
+- Physical property: Some description of what was measured, the physical property.
+- Value: This is the measured value for the physical property at that temperature, pressure. The units should be in the column heading
 - Std: The sample standard deviation, if available.
 - N: The number of data points, if a mean value was entered.
+- Temperature: (Optional) if the Property is temperature dependent (i.e. Heat Capacity at 290K etc.,) then add a column here
 - Name: The name of the scientist or the PI of the lab that did the measurements. The main importance is traceability, we need to keep track of where tha data came from.
 For literature data, add the year it was published as Name_YY. For newly collected data, omit the year.
 - Comment, Ref: Free text comments, DOI, experimental conditions or other info.
