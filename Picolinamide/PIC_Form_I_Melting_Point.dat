@@ -1,0 +1,4 @@
+                         mean       stdev      CI_low      CI_upp      weight
+Evora                379.6000      0.4000    378.8160    380.3840      0.7656
+Literature data      380.2500      0.7228    378.8333    381.6667      0.2344
+random effect        379.7524      0.3500    379.0664    380.4383      1.0000
