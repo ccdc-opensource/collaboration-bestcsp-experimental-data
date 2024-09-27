@@ -1,4 +1,4 @@
-PICAMD,PICAMD,,,,,,
+PICAMD,,,,,,,
 Identifier,Property,Value (kJ/mol),Std,N,Name,Reference,Comment
 1,Enthalpy of fusion,20.4,,1,Evora,https://doi.org/10.1039/C2CE26244D,DSC 10 K min-1
 2,Enthalpy of fusion,20.6,,1,Evora,https://doi.org/10.1039/C2CE26244D,DSC 10 K min-1
