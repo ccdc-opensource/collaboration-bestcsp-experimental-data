@@ -1,10 +1,12 @@
 # imports
 import glob
-import sys, math
+import sys
+import math
 import numpy as np
 from statsmodels.stats.meta_analysis import combine_effects
 from statsmodels.graphics.dotplots import dot_plot
 import matplotlib.pyplot as plt
+
 
 def write_table_to_disk(table, name):
     lines = table.split('\n')
@@ -24,10 +26,9 @@ def write_table_to_disk(table, name):
             newlines.append(newline)
     f = open(filename.replace('.csv', '.dat'), 'w')
     f.write('\n'.join(newlines))
-    f.close()           
+    f.close()
 
     return
-
 
 
 files = glob.glob('%s\\*.csv' % (sys.argv[1]))
@@ -121,11 +122,11 @@ for filename in files:
     # results.conf_int_samples(nobs=nobs)
     print("Heterogeneity, tau-square: {:.3f}".format(results.tau2), "tau: {:.3f}".format(math.sqrt(results.tau2)))
     table = results.summary_frame()
-    print (table)
+    print(table)
     write_table_to_disk(table.to_string(), filename)
-    
+
     #fig = results.plot_forest()
-    #fig.tight_layout()
+    # fig.tight_layout()
     #fig.savefig(filename.replace('.csv', '') + '.png')
     fig1, ax = plt.subplots()
     res_df = results.summary_frame()
@@ -140,4 +141,4 @@ for filename in files:
     fig1.tight_layout()
     fig1.savefig(filename.replace('.csv', '') + '_without_wls.png')
 
-print ("All done!")    
+print("All done!")
