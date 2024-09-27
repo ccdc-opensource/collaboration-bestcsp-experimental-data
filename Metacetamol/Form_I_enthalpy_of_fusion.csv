@@ -1,0 +1,6 @@
+MENSEE01,,,,,,,
+Identifier, Property, Value (kJ/mol),"		Std"," 	N",   Name, Reference    ,"	              Comment"
+1,         Enthalpy of fusion,27.21,0.03,6,Noor,W_Noor_2024,
+2,         Enthalpy of fusion,24.6,0.15,,Perlovich_08,https://doi.org/10.1208/s12249-008-9033-0,
+3,         Enthalpy of fusion,28.8,0.35,,Barrio_17,https://doi.org/10.1016/j.xphs.2017.02.003,
+4,         Enthalpy of fusion,26.7,0.4,,Drebushchak_17,https://doi.org/10.1007/s10973-016-5954-0,
