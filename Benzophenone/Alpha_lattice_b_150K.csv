@@ -1,0 +1,12 @@
+BPHENO19,,,,,,,
+Identifier, Property              , Value (Angstrom),		 Std, 	N,    Name,    Reference    ,	              Comment
+1         , Lattice param b @150K ,  10.274  ,  0.002  ,     ,   Hoser1,    e-mail 27 Aug 2024,   
+2         , Lattice param b @150K ,   10.2608 ,  0.0014   ,     ,   Hoser2,    e-mail 27 Aug 2024,
+3         , Lattice param b @150K ,  10.2518   ,  0.0005  ,     ,   Hoser3,    e-mail 27 Aug 2024,
+4         , Lattice param b @150K ,  10.2547  ,  0.0001  ,     ,   Hoser4,    e-mail 27 Aug 2024,
+5         , Lattice param b @150K ,   10.2553 ,  0.0001 ,     ,   Hoser5,    e-mail 27 Aug 2024,
+6         , Lattice param b @150K ,  10.25376 ,  0.0001 ,     ,   Hoser6,    e-mail 27 Aug 2024,
+7         , Lattice param b @150K ,  10.24901 ,  0.00018 ,     ,   Hoser7,    e-mail 27 Aug 2024,
+8         , Lattice param b @150K ,  10.2486  ,  0.0003  ,     ,   Hoser8,    e-mail 27 Aug 2024,
+9         , Lattice param b @150K ,  10.25197 ,  0.00007 ,     ,   Hoser9,    e-mail 27 Aug 2024,
+10        , Lattice param b @150K ,   10.2493 ,  0.0008  ,     ,   Hoser10,    e-mail 27 Aug 2024,
