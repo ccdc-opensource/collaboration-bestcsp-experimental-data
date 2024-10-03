@@ -1,18 +1,20 @@
 # collaboration-bestcsp-experimental-data
 
-Sharing of experimental data for validating computational methods as part of the BEST-CSP project, 
+Sharing of experimental data for validating computational methods as part of the BEST-CSP project,
 see <https://www.cost.eu/actions/CA22107> and <https://best-csp.eu/>
 
 This repository contains individual folders for each of the compounds considered in this Action,
 and an example "System_template" to illustrate the format.
 
-Within each folder are .csv files for each polymorph, for standardised recording of data. 
+Within each folder are .csv files for each polymorph, for standardised recording of data.
 Keeping the experimental data to a standard format will aid in the statistical treatment of results,
 and csv files are machine readable, facilitating plotting and tabulating the data.
 
 There is also a Python script in the top directory for calculating consensus means from data generated in different labs called stats.py.
 The script requires the modules statsmodels and matplotlib; it may be simpler to make a conda environment and install those modules,
 but I have included environment.yaml as a snapshot for the pictures used in the Paris meeting (20/06/2024).
+
+## Filling in CSV files
 
 In writing the csv files, please consider the following guidance.
 Each line can contain either a single data point, or the mean value and standard deviation of several data points from the same experiment/lab.
@@ -42,27 +44,12 @@ Make sure that the data you enter are for that polymorph.
 
 Each line in the csv file then contaisn the following fields, separated by commas:
 
-Id
-We number the data, so that it becomes easier to refer to a specific data point by specifying the filename and row number.
-
-Physical property
-Some description of what was measured, the physical property. 
-
-Value
-This is the measured value for the physical property at that temperature, pressure
-
-Unit
-SI unit for the measured value
-
-Std
-The sample standard deviation, if available.
-
-N
-The number of data points, if a mean value was entered.
-
-Name
-The name of the scientist or the PI of the lab that did the measurements.
-The main importance is traceability, we need to keep track of where tha data came from.
+- Id: We number the data, so that it becomes easier to refer to a specific data point by specifying the filename and row number.
+- Physical property: Some description of what was measured, the physical property.
+- Value: This is the measured value for the physical property at that temperature, pressure. The units should be in the column heading
+- Std: The sample standard deviation, if available.
+- N: The number of data points, if a mean value was entered.
+- Temperature: (Optional) if the Property is temperature dependent (i.e. Heat Capacity at 290K etc.,) then add a column here
+- Name: The name of the scientist or the PI of the lab that did the measurements. The main importance is traceability, we need to keep track of where tha data came from.
 For literature data, add the year it was published as Name_YY. For newly collected data, omit the year.
-Comment, Ref
-Free text comments, DOI, experimental conditions or other info.
+- Comment, Ref: Free text comments, DOI, experimental conditions or other info.
