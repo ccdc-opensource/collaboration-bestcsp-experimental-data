@@ -11,5 +11,5 @@ Identifier,"	Property","		     Value (K)","		Std"," 	N",       Name,"	          
 9,         Melting point,381.95,       ,     ,       Kons,                        1 K/min,
 10,        Melting point,381.3,       ,     ,       Kons,                        1 K/min,
 11,        Melting point,382.35,       ,     ,       Rekis_17,                           ,   10.1021/acs.cgd.6b01867
-12,        Melting point,382.24,0.03,5,Feliciano,25 K/min (TA 2920MDSC),Artis Kons email 21/12/2024
-13,        Melting point,383.25,0.17,9,Feliciano,25 K/min (Perkin Elmer DSC 7),Artis Kons email 21/12/2024
+12,        Melting point,382.24,0.03,5,FelicianoTA,25 K/min (TA 2920MDSC),Artis Kons email 21/12/2024
+13,        Melting point,383.25,0.17,9,FelicianoPerkin,25 K/min (Perkin Elmer DSC 7),Artis Kons email 21/12/2024

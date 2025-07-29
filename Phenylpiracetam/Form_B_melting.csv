@@ -11,5 +11,5 @@ Identifier,"	Property","		  Value (K)","		Std"," 	N",       Name,"	             
 9, Melting point,390,        ,     ,       Kons,              20 K/min ,  Artis Kons e-mail 3 Sept 2024
 10, Melting point,390.3,        ,     ,       Kons,              20 K/min ,  Artis Kons e-mail 3 Sept 2024
 11, Melting point,390.29,        ,     ,       Kons,              20 K/min ,  Artis Kons e-mail 3 Sept 2024
-12, Melting point,388.34,0.09,5,Feliciano,1 k/min (TA 2920MDSC),Artis Kons email 21/12/2024
-13, Melting point,389.67,0.11,5,Feliciano,0.5 k/min (Perkin Elmer DSC 7),Artis Kons email 21/12/2025
+12, Melting point,388.34,0.09,5,FelicianoTA,1 k/min (TA 2920MDSC),Artis Kons email 21/12/2024
+13, Melting point,389.67,0.11,5,FelicianoPerkin,0.5 k/min (Perkin Elmer DSC 7),Artis Kons email 21/12/2025
