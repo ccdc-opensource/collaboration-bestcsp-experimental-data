@@ -1,13 +1,15 @@
-Phenylpiracetam Form B
-Identifier,	Property,		  Value (K),		Std, 	N,       Name,	              Comment,            Reference 
-1         , Melting point,      390.42,        ,     ,       Kons,              20 K/min ,  Artis Kons e-mail 3 Sept 2024
-2         , Melting point,      391.28,        ,     ,       Kons,              20 K/min ,  Artis Kons e-mail 3 Sept 2024
-3         , Melting point,      388.57,        ,     ,       Kons,              20 K/min ,  Artis Kons e-mail 3 Sept 2024
-4         , Melting point,      389.10,        ,     ,       Kons,              20 K/min ,  Artis Kons e-mail 3 Sept 2024
-5         , Melting point,      389.22,        ,     ,       Kons,              20 K/min ,  Artis Kons e-mail 3 Sept 2024
-6         , Melting point,      389.59,        ,     ,       Kons,              20 K/min ,  Artis Kons e-mail 3 Sept 2024
-7         , Melting point,      389.02,        ,     ,       Kons,              20 K/min ,  Artis Kons e-mail 3 Sept 2024
-8         , Melting point,      390.77,        ,     ,       Kons,              20 K/min ,  Artis Kons e-mail 3 Sept 2024
-9         , Melting point,      390.00,        ,     ,       Kons,              20 K/min ,  Artis Kons e-mail 3 Sept 2024
-10        , Melting point,      390.30,        ,     ,       Kons,              20 K/min ,  Artis Kons e-mail 3 Sept 2024
-11        , Melting point,      390.29,        ,     ,       Kons,              20 K/min ,  Artis Kons e-mail 3 Sept 2024
+Phenylpiracetam Form B,,,,,,,
+Identifier,"	Property","		  Value (K)","		Std"," 	N",       Name,"	              Comment",            Reference 
+1, Melting point,390.42,        ,     ,       Kons,              20 K/min ,  Artis Kons e-mail 3 Sept 2024
+2, Melting point,391.28,        ,     ,       Kons,              20 K/min ,  Artis Kons e-mail 3 Sept 2024
+3, Melting point,388.57,        ,     ,       Kons,              20 K/min ,  Artis Kons e-mail 3 Sept 2024
+4, Melting point,389.1,        ,     ,       Kons,              20 K/min ,  Artis Kons e-mail 3 Sept 2024
+5, Melting point,389.22,        ,     ,       Kons,              20 K/min ,  Artis Kons e-mail 3 Sept 2024
+6, Melting point,389.59,        ,     ,       Kons,              20 K/min ,  Artis Kons e-mail 3 Sept 2024
+7, Melting point,389.02,        ,     ,       Kons,              20 K/min ,  Artis Kons e-mail 3 Sept 2024
+8, Melting point,390.77,        ,     ,       Kons,              20 K/min ,  Artis Kons e-mail 3 Sept 2024
+9, Melting point,390,        ,     ,       Kons,              20 K/min ,  Artis Kons e-mail 3 Sept 2024
+10, Melting point,390.3,        ,     ,       Kons,              20 K/min ,  Artis Kons e-mail 3 Sept 2024
+11, Melting point,390.29,        ,     ,       Kons,              20 K/min ,  Artis Kons e-mail 3 Sept 2024
+12, Melting point,388.34,0.09,5,Feliciano,1 k/min (TA 2920MDSC),Artis Kons email 21/12/2024
+13, Melting point,389.67,0.11,5,Feliciano,0.5 k/min (Perkin Elmer DSC 7),Artis Kons email 21/12/2025
