@@ -1,0 +1,3 @@
+MENSEE01,,,,,,,
+Identifier, Property              , Value (Angstrom^3),		 Std, 	N,    Name,    Reference    ,	              Comment
+1         , Unit cell volume @440K,  773.404,  0.247  ,     ,  Feliciano,    STSM-Parma,   
