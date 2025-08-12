@@ -1,0 +1,7 @@
+HACTPH21,,,,,,,,
+Identifier, Property              , Value (kJ/mol),"		 Std"," 	N",    Name,    Reference    ,"	              Comment",
+1,Enthalpy @ 334.7 K,95.7,1.5,     ,C. Bernardes,http://dx.doi.org/10.1246/bcsj.33.194 : http://dx.doi.org/10.1021/Cg7012792 ,Viscosity gauge (Crystal Phase Unknown) "Bull. Chem. Soc. Jpn. 1960, 33, 194-200 : Cryst. Growth Des. 2008, 8, 2419-2430. "
+2,Enthalpy @ 298.15 K,97.5,1.5,     ,C. Bernardes,http://dx.doi.org/10.1246/bcsj.33.194 : http://dx.doi.org/10.1021/Cg7012792 ,Viscosity gauge (Crystal Phase Unknown) "Bull. Chem. Soc. Jpn. 1960, 33, 194-200 : Cryst. Growth Des. 2008, 8, 2419-2430. "
+3,Enthalpy @ 298.15 K,104.3,0.4,     ,C. Bernardes,http://dx.doi.org/10.1021/Cg7012792 ,Calvet drop microcalorimetry "Cryst. Growth Des. 2008, 8, 2419-2430. "
+4,Enthalpy @ 329.2 K,102.1,0.4,,C. Bernardes,https://doi.org/10.1016/j.jct.2019.105893,Transpiration (no clear proof that the sample corresponded to cr II as mentioned in the text) " J. Chem. Thermodyn. 2020, 140, 105893"
+5,Enthalpy @ 298.15 K,103.1,0.6,,C. Bernardes,https://doi.org/10.1016/j.jct.2019.105893,Transpiration (no clear proof that the sample corresponded to cr II as mentioned in the text) " J. Chem. Thermodyn. 2020, 140, 105893"
