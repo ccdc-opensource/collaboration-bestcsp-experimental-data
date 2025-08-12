@@ -53,3 +53,16 @@ Each line in the csv file then contaisn the following fields, separated by comma
 - Name: The name of the scientist or the PI of the lab that did the measurements. The main importance is traceability, we need to keep track of where tha data came from.
 For literature data, add the year it was published as Name_YY. For newly collected data, omit the year.
 - Comment, Ref: Free text comments, DOI, experimental conditions or other info.
+
+The dataset is provided under CC_BY_SA, please use for any purpose, but cite this repository or the relevant papers, and retain the same license if re-used.
+
+Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
