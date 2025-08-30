@@ -1,3 +1,3 @@
 SANBAN
-Identifier,	Property,		     Value (),		Std, 	N,       Name,	              Comment,            Reference 
-1,         Solubility,        0.01085,  0.00041     ,     ,       Feliciano,                        n-butanol 298.15K,              
+Identifier,	Property,		     Value (mole fraction),		Std, 	N,       Name,	              Comment,            Reference 
+1,         Solubility,        0.01085,  0.00041     ,    6 ,       Feliciano,                        n-butanol 298.15K,              
