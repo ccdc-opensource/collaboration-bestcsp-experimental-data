@@ -1,0 +1,8 @@
+HACTPH27,,,,,,,
+Identifier, Property              , Value (kJ/mol),"		 Std"," 	N",    Name,    Reference    ,"	              Comment"
+1,Enthalpy of Fusion @ 1 K/min,18.08,0.07,5,C. Bernardes,http://dx.doi.org/10.1021/Cg7012792 ,"Cryst. Growth Des. 2008, 8, 2419-2430.  (DSC: TG-DSC 111)"
+2,Enthalpy of Fusion @ 1 to 80 K/min,18.1,0.2,5,C. Bernardes,https://doi.org/ 10.1021/acs.cgd.6b01876,"Cryst. Growth Des. 2017, 17, 1918-1932 (DSC 204 F1-Phoenix from Netzsch)"
+4,Enthalpy of Fusion @ 1 K/min,17.8,0.1,5,C. Bernardes,https://doi.org/ 10.1021/acs.cgd.6b01876,"Cryst. Growth Des. 2017, 17, 1918-1932 (DSC 204 F1-Phoenix from Netzsch ; using annealed powder sample)"
+7,Enthalpy of Fusion @ 8 to 14 K/min,19.1,0.6,5,C. Bernardes,https://doi.org/ 10.1021/acs.cgd.6b01876,"Cryst. Growth Des. 2017, 17, 1918-1932 (DSC 204 F1-Phoenix from Netzsch ; using single crystals)"
+8,Enthalpy of Fusion @ 1 K/min,17.03,,     ,C. Bernardes,https://doi.org/10.1016/j.fluid.2005.03.023,"Fluid Phase Equilib. 2005, 232, 182-188 (DSC: Perkin-Elmer DSC 7)"
+9,Enthalpy of Fusion @ 5 K/min,18.03,0.2,     ,C. Bernardes,https://doi.org/10.1021/jp0515131,"J. Phys. Chem. B 2005, 109, 12590-12595 (DSC: Perkin-Elmer DSC 7)"
