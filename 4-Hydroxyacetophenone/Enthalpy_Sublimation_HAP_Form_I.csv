@@ -1,0 +1,6 @@
+HACTPH27,,,,,,,,,
+Identifier, Property              , Value (kJ/mol),"		 Std"," 	N",    Name,    Reference    ,"	              Comment",,
+1,Enthalpy of Sublimation @ 327.4 K,101.8,2.7,     ,C. Bernardes,http://dx.doi.org/10.1021/Cg7012792 ,"Knudsen effusion ""Cryst. Growth Des. 2008",8," 2419-2430. """
+2,Enthalpy of Sublimation @ 298.15 K,103.3,2.7,     ,C. Bernardes,http://dx.doi.org/10.1021/Cg7012792 ,"Knudsen effusion ""Cryst. Growth Des. 2008",8," 2419-2430. """
+3,Enthalpy of Sublimation @ 348 K,100.87,0.82,     ,C. Bernardes,http://dx.doi.org/10.1021/Cg7012792 ,"Calvet drop microcalorimetry ""Cryst. Growth Des. 2008",8," 2419-2430. """
+4,Enthalpy of Sublimation @ 298.15 K,103.23,0.82,,C. Bernardes,http://dx.doi.org/10.1021/Cg7012792 ,"Calvet drop microcalorimetry ""Cryst. Growth Des. 2008",8," 2419-2430. """
