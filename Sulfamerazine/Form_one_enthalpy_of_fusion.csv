@@ -1,18 +1,21 @@
 SLFNMA02,,,,,,,
 Identifier,Property,Value (kJ/mol),Std,N,Name,Reference,Comment
-1,Enthalpy of fusion,39.28,,1,Wood,W_Wood_Innsbruck_2024,10K/min
-2,Enthalpy of fusion,38.67,,1,Wood,W_Wood_Innsbruck_2024,10K/min
-3,Enthalpy of fusion,37.95,,1,Wood,W_Wood_Innsbruck_2024,10K/min
-4,Enthalpy of fusion,37.66,,1,Wood,W_Wood_Innsbruck_2024,10K/min
-5,Enthalpy of fusion,37.37,,1,Wood,W_Wood_Innsbruck_2024,10K/min
-6,Enthalpy of fusion,38.14,,1,Wood,W_Wood_Innsbruck_2024,10K/minafterFII->Itransition
-7,Enthalpy of fusion,38.48,,1,Wood,W_Wood_Innsbruck_2024,10K/minafterFII->Itransition
-8,Enthalpy of fusion,37.64,,1,Wood,W_Wood_Innsbruck_2024,10K/minafterFII->Itransition
-9,Enthalpy of fusion,39.57,,1,Wood,W_Wood_Innsbruck_2024,10K/minafterFII->Itransition
-10,Enthalpy of fusion,37.98,,1,Wood,W_Wood_Innsbruck_2024,10K/minafterFII->Itransition
+1,Enthalpy of fusion,39.28,,1,W_Wood_10Kmin,W_Wood_Innsbruck_2024,10K/min degradation seen soon after melting
+2,Enthalpy of fusion,38.67,,1,W_Wood_10Kmin,W_Wood_Innsbruck_2024,10K/min degradation seen soon after melting
+3,Enthalpy of fusion,37.95,,1,W_Wood_10Kmin,W_Wood_Innsbruck_2024,10K/min degradation seen soon after melting
+4,Enthalpy of fusion,37.66,,1,W_Wood_10Kmin,W_Wood_Innsbruck_2024,10K/min degradation seen soon after melting
+5,Enthalpy of fusion,37.37,,1,W_Wood_10Kmin,W_Wood_Innsbruck_2024,10K/min degradation seen soon after melting
+6,Enthalpy of fusion,38.14,,1,W_Wood_10Kmin,W_Wood_Innsbruck_2024,10K/minafterFII->Itransition degradation seen soon after melting
+7,Enthalpy of fusion,38.48,,1,W_Wood_10Kmin,W_Wood_Innsbruck_2024,10K/minafterFII->Itransition degradation seen soon after melting 
+8,Enthalpy of fusion,37.64,,1,W_Wood_10Kmin,W_Wood_Innsbruck_2024,10K/minafterFII->Itransition degradation seen soon after melting
+9,Enthalpy of fusion,39.57,,1,W_Wood_10Kmin,W_Wood_Innsbruck_2024,10K/minafterFII->Itransition degradation seen soon after melting
+10,Enthalpy of fusion,37.98,,1,W_Wood_10Kmin,W_Wood_Innsbruck_2024,10K/minafterFII->Itransition degradation seen soon after melting
 11,Enthalpy of fusion,40.8,0.2,3,Zhang_02,https://doi.org/10.1002/jps.10100,
 12,Enthalpy of fusion,36.3,1,6,Yang_72,https://doi.org/10.1002/jps.2600610104,10K/min
 13,Enthalpy of fusion,45.8,,1,Khattab_83,https://doi.org/10.1016/0040-6031(83)80280-9,2K/min
 14,Enthalpy of fusion,40.17,0.872410454,5,Li_11,https://doi.org/10.1016/j.ijpharm.2011.05.058,2K/min
 15,Enthalpy of fusion,39.4,,1,Caria_92,https://doi.org/10.1107/S0108768192000910,Theenthalpyandentropyoffusionfromrepeatedrunsyieldedrangesof38.5-40.3kJ/moland75.6-79.1J/K/molrespectively
 16,Enthalpy of fusion,41.1,,1,Maury_86,https://doi.org/10.1002/jps.2600740411,
+17, Enthalpy of fusion, 37.16, 1.33, 5, M_Sarraguca_10Kmin, M_Sarraguca_Porto_2025, 10 K/min degradation seen soon after melting
+18, Enthalpy of fusion, 40.96, 0.57, 5, E_de_Ronde_10Kmin, E_de_Ronde_Radboud_2025, 10 K/min degradation seen soon after melting
+19, Enthalpy of fusion, 39.83, 0.73, 3, V_Stefja_20Kmin, V_Stejfa_UCTPrague_2025, 20 K/min degradation seen soon after melting
