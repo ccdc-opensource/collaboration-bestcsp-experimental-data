@@ -1,0 +1,8 @@
+SLFNMA01,,,,,,,
+Identifier,		Property,					Value (kJ/mol)," Std"," 	N",     Name,				  Reference,"	        Comment"
+1,         		Enthalpy of transition,		3.26,       0.17,		4,  		V_Stefja_0.5Kmin,       	V_Stejfa_UCTPrague_2025,		0.5 K/min
+2,         		Enthalpy of transition,		3.18,       0.12,		5,  		D_Braun_1Kmin,       		D_Braun_Innsbruck_2025,		1 K/min (Extrapolated from measured onset using heat capacity measurments)
+3,         		Enthalpy of transition,		3.17,       0.07,		5,  		D_Braun_2Kmin,       		D_Braun_Innsbruck_2025,		2 K/min (Extrapolated from measured onset using heat capacity measurments)
+4,         		Enthalpy of transition,		3.15,       0.05,		5,  		W_Wood_5Kmin,       		W_Wood_Innsbruck_2024,		5 K/min (Extrapolated from measured onset using heat capacity measurments)
+5,         		Enthalpy of transition,		3.03,       0.10,		5,  		E_de_Ronde_10Kmin,        	E_de_Ronde_Radboud_2025,        10 K/min (Extrapolated from measured onset using heat capacity measurments)
+6,         		Enthalpy of transition,		3.14,       0.07,		5,  		W_Wood_10Kmin,        		W_Wood_Innsbruck_2024,        	10 K/min (Extrapolated from measured onset using heat capacity measurments)

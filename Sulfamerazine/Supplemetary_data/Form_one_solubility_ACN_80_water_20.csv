@@ -1,0 +1,25 @@
+Position,        Amount/mg,       Volume/mL, Conc/mgmL-1,           Tclear1/2,       notes
+A1,      32.08,   1,       32.0835, 54.6, All measured by Crystal 16 in acetonitrile:water (80:20 v:v)
+A2,      36.92,   1,       36.9215, 59.2, 
+A3,      41.89,   1,       41.894 , 62.8, 
+A4,      51.39,   1,       51.3885, 69.1, 
+B1,      29.94,   1,       29.9365, 52.4, 
+B2,      32.76,   1,       32.7645, 55.1, 
+B3,      39.38,   1,       39.3805, 60.9, 
+B4,      48.56,   1,       48.558 , 67.5, 
+A1,      32.08,   1,       32.0835, 54.4,    "recrystallised from run1"
+A2,      36.92,   1,       36.9215, 58.6,    "recrystallised from run1"
+A3,      41.89,   1,       41.894 , 62.7,    "recrystallised from run1"
+A4,      51.39,   1,       51.3885, 69.3,    "recrystallised from run1"
+B1,      29.94,   1,       29.9365, 52.3,    "recrystallised from run1"
+B2,      32.76,   1,       32.7645, 55.2,    "recrystallised from run1"
+B3,      39.38,   1,       39.3805, 60.9,    "recrystallised from run1"
+B4,      48.56,   1,       48.558 , 67.2,    "recrystallised from run1"
+A1,      6.03 ,   1,       6.78   , 7.9 ,  
+A2,      8.24 ,   1,       8.37   , 13.3, 
+A3,      10.15,   1,       10.15  , 20.2, 
+A4,      12.21,   1,       12.21  , 25.9, 
+B1,      13.82,   1,       13.82  , 29.5, 
+B2,      16.18,   1,       16.18  , 34.3, 
+B3,      20   ,   1,       20     , 40.6, 
+B4,      25.27,   1,       25.27  , 47.9, 

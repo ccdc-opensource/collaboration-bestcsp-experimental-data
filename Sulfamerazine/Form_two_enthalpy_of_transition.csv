@@ -1,20 +1,11 @@
-SLFNMA01,,,,,,,
-Identifier,Property,Value (kJ/mol), Std," 	N",     Name,"	  Reference    ","	 Comment"
-1,  Enthalpy of transition,2.95,,1,Wood,W_Wood_Innsbruck_2024,"	10 K/min"
-2,  Enthalpy of transition,2.94,,1,Wood,W_Wood_Innsbruck_2024,"	10 K/min"
-3,  Enthalpy of transition,2.84,,1,Wood,W_Wood_Innsbruck_2024,"	10 K/min"
-4,  Enthalpy of transition,2.93,,1,Wood,W_Wood_Innsbruck_2024,"	10 K/min"
-5,  Enthalpy of transition,2.78,,1,Wood,W_Wood_Innsbruck_2024,"	10 K/min"
-6,  Enthalpy of transition,2.91,,1,Wood,W_Wood_Innsbruck_2024,"	5 K/min"
-7,  Enthalpy of transition,2.91,,1,Wood,W_Wood_Innsbruck_2024,"	5 K/min"
-8,  Enthalpy of transition,2.96,,1,Wood,W_Wood_Innsbruck_2024,"	5 K/min"
-9,  Enthalpy of transition,3.03,,1,Wood,W_Wood_Innsbruck_2024,"	5 K/min"
-10, Enthalpy of transition,2.93,,1,Wood,W_Wood_Innsbruck_2024,"	5 K/min"
-11, Enthalpy of transition,2.58,,1,Wood,W_Wood_Innsbruck_2024,"	1 K/min"
-12, Enthalpy of transition,2.53,,1,Wood,W_Wood_Innsbruck_2024,"	1 K/min"
-13, Enthalpy of transition,2.56,,1,Wood,W_Wood_Innsbruck_2024,"	1 K/min"
-14, Enthalpy of transition,2.52,,1,Wood,W_Wood_Innsbruck_2024,"	1 K/min"
-15, Enthalpy of transition,2.41,,1,Wood,W_Wood_Innsbruck_2024,"	1 K/min"
-16, Enthalpy of transition,3.12,0.01,3,Zhang_02,https://doi.org/10.1002/jps.10100,
-17, Enthalpy of transition,1.4, ,1,Caria_92,https://doi.org/10.1107/S0108768192000910, 5 K/min
-18, Enthalpy of transition,2.726,0.183521116,5,Li_11,https://doi.org/10.1016/j.ijpharm.2011.05.058, Combined results from different heating rates
+SLFNMA01,,,,,,,,
+Identifier,"		Property","					Value (kJ/mol)", Std," 	N",     Name,"				  Reference","	        Comment",
+1,"         		Enthalpy of transition","		3.26",0.17,"		4","  		V_Stefja_0.5Kmin","       	V_Stejfa_UCTPrague_2025","		""0.5 K/min"," Onset = 150 degC"""
+2,"         		Enthalpy of transition","		3.12",0.12,"		5","  		D_Braun_1Kmin","       		D_Braun_Innsbruck_2025","		""1 K/min"," Onset = 155 degC"""
+3,"         		Enthalpy of transition","		3.05",0.07,"		5","  		D_Braun_2Kmin","       		D_Braun_Innsbruck_2025","		""2 K/min"," Onset = 160 degC"""
+4,"         		Enthalpy of transition","		2.95",0.05,"		5","  		W_Wood_5Kmin","       		W_Wood_Innsbruck_2024","		""5 K/min"," Onset = 167 degC"""
+5,"         		Enthalpy of transition","		2.71",0.1,"		5","  		E_de_Ronde_10Kmin","        	E_de_Ronde_Radboud_2025","        ""10 K/min"," Onset = 176 degC"""
+6,"         		Enthalpy of transition","		2.89",0.07,"		5","  		W_Wood_10Kmin","        		W_Wood_Innsbruck_2024","        	""10 K/min"," Onset = 171 degC"""
+7, Enthalpy of transition,3.12,0.01,3,Zhang_02,https://doi.org/10.1002/jps.10100, ,
+8, Enthalpy of transition,1.4, ,1,Caria_92,https://doi.org/10.1107/S0108768192000910, 5 K/min,
+9, Enthalpy of transition,2.726,0.183521116,5,Li_11,https://doi.org/10.1016/j.ijpharm.2011.05.058, Combined results from different heating rates,
