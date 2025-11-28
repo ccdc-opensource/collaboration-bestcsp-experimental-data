@@ -1,0 +1,15 @@
+Identifier, Property              , Value (Angstrom),"		 Std"," 	N",    Name,    Reference    ,"	              Comment"
+1, Lattice param a @295 K,9.48,,     ,Form II,HACTPH10,Space Group P212121
+2, Lattice param a @150 K,6.1886,0.0004,     ,Form II,HACTPH11,Space Group P212121
+3, Lattice param a @168 K,6.1554,0.0017,     ,Form II,HACTPH14,Space Group P212121
+4, Lattice param a @298 K,6.1097,0.0011,     ,Form II,HACTPH15,Space Group P212121
+5, Lattice param a @100 K,6.18,0.02,     ,Form II,HACTPH18,Space Group P212121
+6, Lattice param a @300 K,6.1209,0.0003,     ,Form II,HACTPH19,Space Group P212121
+7, Lattice param a @200 K,6.1726,0.0002,     ,Form II,HACTPH20,Space Group P212121
+8, Lattice param a @123 K,6.1941,0.0002,     ,Form II,HACTPH21,Space Group P212121
+9, Lattice param a @150 K,6.1885,0.0002,     ,Form II,HACTPH25,Space Group P212121
+10, Lattice param a @330 K,6.1258,0.0003,     ,Form II,HACTPH28,Space Group P212121
+11, Lattice param a @100 K,30.9019,0.0006,,Form II,HACTPH29,Space Group P212121
+12, Lattice param a @100 K,6.1799,0.0013,,Form II,HACTPH30,Space Group P212121
+13, Lattice param a @113.2 K,6.2026,0.0003,,Form II,HACTPH32,Space Group P212121
+14, Lattice param a @298 K,9.541,0.002,,Form II,HACTPH33,Space Group P212121

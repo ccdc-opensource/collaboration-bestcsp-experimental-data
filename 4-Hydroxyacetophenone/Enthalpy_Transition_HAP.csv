@@ -1,0 +1,12 @@
+Identifier, Property              , Value (kJ/mol),"		 Std"," 	N",    Name,    Reference    ,"	              Comment"
+1,Transition Temperature @ 351 K,0.53,0.06,5,"Cryst. Growth Des. 2008, 8, 2419-2430. ",http://dx.doi.org/10.1021/Cg7012792 ,DSC: TG-DSC 112
+2,Transition Temperature @ 350.9 K : 1 K/min,0.75,0.12,4,"Cryst. Growth Des. 2017, 17, 1918-1932",https://doi.org/ 10.1021/acs.cgd.6b01876,Single Crystal : DSC 204 F1-Phoenix from Netzsch
+3,Transition Temperature @ 362.45 K : 5 K/min,0.83,0.08,4,"Cryst. Growth Des. 2017, 17, 1918-1932",https://doi.org/ 10.1021/acs.cgd.6b01876,Single Crystal : DSC 204 F1-Phoenix from Netzsch
+4,Transition Temperature @ 367.75 K : 10 K/min,0.73,0.18,3,"Cryst. Growth Des. 2017, 17, 1918-1932",https://doi.org/ 10.1021/acs.cgd.6b01876,Single Crystal : DSC 204 F1-Phoenix from Netzsch
+5,Transition Temperature @ 366.55 K : 12 K/min,0.75,0.1,3,"Cryst. Growth Des. 2017, 17, 1918-1932",https://doi.org/ 10.1021/acs.cgd.6b01876,Single Crystal : DSC 204 F1-Phoenix from Netzsch
+6,Transition Temperature @ 367.08 K : 14 K/min,0.59,0.1,3,"Cryst. Growth Des. 2017, 17, 1918-1932",https://doi.org/ 10.1021/acs.cgd.6b01876,Single Crystal : DSC 204 F1-Phoenix from Netzsch
+7,Transition Temperature @ 366.75 K : 16 K/min,0.73,0.04,3,"Cryst. Growth Des. 2017, 17, 1918-1932",https://doi.org/ 10.1021/acs.cgd.6b01876,Single Crystal : DSC 204 F1-Phoenix from Netzsch
+8,Transition Temperature @ 371.45 K : 20 K/min,0.54,0.24,3,"Cryst. Growth Des. 2017, 17, 1918-1932",https://doi.org/ 10.1021/acs.cgd.6b01876,Single Crystal : DSC 204 F1-Phoenix from Netzsch
+9,Transition Temperature @ 298 K,0.49,0.13,5,"Cryst. Growth Des. 2008, 8, 2419-2430. ",http://dx.doi.org/10.1021/Cg7012792 ,Solution Calorimetry: Isoperibol Thermometric Precision Solution Calorimeter
+10,Transition Temperature @ 298 K,0.9,0.9,5,"Cryst. Growth Des. 2008, 8, 2419-2430. ",http://dx.doi.org/10.1021/Cg7012792 ,Calvet Drop Microcalorimetry
+11,Transition Temperature @ 298 K,0.48,0.1,5,"J. Chem. Thermodynamics 2021,158, 106445.",https://doi.org/10.1016/j.jct.2021.106445,Solution Calorimetry: Isothermal Calorimeter

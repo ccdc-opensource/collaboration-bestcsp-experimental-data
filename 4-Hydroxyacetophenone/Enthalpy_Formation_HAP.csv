@@ -1,0 +1,6 @@
+Identifier, Property              , Value (kJ/mol),"		 Std"," 	N",    Name,    Reference    ,"	              Comment"
+1,Form I @ 298.15 K,-368.9,1.9,,"Cryst. Growth Des. 2008, 8, 2419-2430. ",http://dx.doi.org/10.1021/Cg7012792 ,Combustion Calorimetry
+2,Form II @ 298.15 K,-369.4,1.9,     ,"Cryst. Growth Des. 2008, 8, 2419-2430. ",http://dx.doi.org/10.1021/Cg7012792 ,Combustion Calorimetry / Solution Calorimetry
+3,Liquid @ 298.15 K,-353.4,1.9,     ," J. Chem. Thermodyn. 2020, 140, 105893",https://doi.org/10.1016/j.jct.2019.105893,
+4,Gas @ 298.15 K,-265.4,1.4,,"Cryst. Growth Des. 2008, 8, 2419-2430. ",http://dx.doi.org/10.1021/Cg7012792 ,Combustion Calorimetry / Sublimation Enthalpy
+5,Gas @ 298.15 K,-264.6,1.8,," J. Chem. Thermodyn. 2020, 140, 105893",https://doi.org/10.1016/j.jct.2019.105893,

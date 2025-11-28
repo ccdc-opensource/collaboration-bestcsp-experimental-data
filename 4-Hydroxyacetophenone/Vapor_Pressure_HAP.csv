@@ -1,0 +1,38 @@
+Identifier, Property    (T/K), Value (Pa),"		 Std"," 	N",    Name,    Reference    ,"	              Comment"
+1,318.2,0.0346,,     ,"Cryst. Growth Des. 2008, 8, 2419-2430. ",http://dx.doi.org/10.1021/Cg7012792 ,Knudsen effusion
+2,327.2,0.1139,,     ,"Cryst. Growth Des. 2008, 8, 2419-2430. ",http://dx.doi.org/10.1021/Cg7012792 ,Knudsen effusion
+3,339.7,0.4397,,     ,"Cryst. Growth Des. 2008, 8, 2419-2430. ",http://dx.doi.org/10.1021/Cg7012792,Knudsen effusion
+4,344.7,0.7067,,,"Cryst. Growth Des. 2008, 8, 2419-2430. ",http://dx.doi.org/10.1021/Cg7012792,Knudsen effusion
+5,349.8,1.2285,,,"Cryst. Growth Des. 2008, 8, 2419-2430. ",http://dx.doi.org/10.1021/Cg7012792,Knudsen effusion
+6,355.3,2.0548,,,"Cryst. Growth Des. 2008, 8, 2419-2430. ",http://dx.doi.org/10.1021/Cg7012792,Knudsen effusion
+7,362.8,4.1491,,,"Cryst. Growth Des. 2008, 8, 2419-2430. ",http://dx.doi.org/10.1021/Cg7012792,Knudsen effusion
+8,359.5,3.1404,,,"Cryst. Growth Des. 2008, 8, 2419-2430. ",http://dx.doi.org/10.1021/Cg7012792,Knudsen effusion
+9,336.6,0.3266,,,"Cryst. Growth Des. 2008, 8, 2419-2430. ",http://dx.doi.org/10.1021/Cg7012792,Knudsen effusion
+10,332.8,0.1868,,,"Cryst. Growth Des. 2008, 8, 2419-2430. ",http://dx.doi.org/10.1021/Cg7012792,Knudsen effusion
+11,330.2,0.1675,,,"Cryst. Growth Des. 2008, 8, 2419-2430. ",http://dx.doi.org/10.1021/Cg7012792,Knudsen effusion
+12,338.4,0.3645,,,"Cryst. Growth Des. 2008, 8, 2419-2430. ",http://dx.doi.org/10.1021/Cg7012792,Knudsen effusion
+13,320.5,0.0543,,,"Bull. Chem. Soc. Jpn. 1960, 33, 194-200.",http://dx.doi.org/10.1246/bcsj.33.194,Viscosity gauge 
+14,323.0,0.0717,,,"Bull. Chem. Soc. Jpn. 1960, 33, 194-200.",http://dx.doi.org/10.1246/bcsj.33.194,Viscosity gauge 
+15,326.0,0.0977,,,"Bull. Chem. Soc. Jpn. 1960, 33, 194-200.",http://dx.doi.org/10.1246/bcsj.33.194,Viscosity gauge 
+16,328.3,0.1263,,,"Bull. Chem. Soc. Jpn. 1960, 33, 194-200.",http://dx.doi.org/10.1246/bcsj.33.194,Viscosity gauge 
+17,332.2,0.1867,,,"Bull. Chem. Soc. Jpn. 1960, 33, 194-200.",http://dx.doi.org/10.1246/bcsj.33.194,Viscosity gauge 
+18,335.7,0.2733,,,"Bull. Chem. Soc. Jpn. 1960, 33, 194-200.",http://dx.doi.org/10.1246/bcsj.33.194,Viscosity gauge 
+19,337.5,0.3173,,,"Bull. Chem. Soc. Jpn. 1960, 33, 194-200.",http://dx.doi.org/10.1246/bcsj.33.194,Viscosity gauge 
+20,339.9,0.4280,,,"Bull. Chem. Soc. Jpn. 1960, 33, 194-200.",http://dx.doi.org/10.1246/bcsj.33.194,Viscosity gauge 
+21,342.3,0.5440,,,"Bull. Chem. Soc. Jpn. 1960, 33, 194-200.",http://dx.doi.org/10.1246/bcsj.33.194,Viscosity gauge 
+22,345.0,0.7066,,,"Bull. Chem. Soc. Jpn. 1960, 33, 194-200.",http://dx.doi.org/10.1246/bcsj.33.194,Viscosity gauge 
+23,347.4,0.8733,,,"Bull. Chem. Soc. Jpn. 1960, 33, 194-200.",http://dx.doi.org/10.1246/bcsj.33.194,Viscosity gauge 
+24,348.9,0.9666,,,"Bull. Chem. Soc. Jpn. 1960, 33, 194-200.",http://dx.doi.org/10.1246/bcsj.33.194,Viscosity gauge 
+25,308.2,0.0107,,," J. Chem. Thermodyn. 2020, 140, 105893",https://doi.org/10.1016/j.jct.2019.105893,Transpiration method
+26,311.2,0.0151,,," J. Chem. Thermodyn. 2020, 140, 105893",https://doi.org/10.1016/j.jct.2019.105893,Transpiration method
+27,314.2,0.0217,,," J. Chem. Thermodyn. 2020, 140, 105893",https://doi.org/10.1016/j.jct.2019.105893,Transpiration method
+28,317.2,0.0324,,," J. Chem. Thermodyn. 2020, 140, 105893",https://doi.org/10.1016/j.jct.2019.105893,Transpiration method
+29,320.5,0.0491,,," J. Chem. Thermodyn. 2020, 140, 105893",https://doi.org/10.1016/j.jct.2019.105893,Transpiration method
+30,323.8,0.0710,,," J. Chem. Thermodyn. 2020, 140, 105893",https://doi.org/10.1016/j.jct.2019.105893,Transpiration method
+31,326.2,0.0964,,," J. Chem. Thermodyn. 2020, 140, 105893",https://doi.org/10.1016/j.jct.2019.105893,Transpiration method
+32,331.2,0.1734,,," J. Chem. Thermodyn. 2020, 140, 105893",https://doi.org/10.1016/j.jct.2019.105893,Transpiration method
+33,334.2,0.2371,,," J. Chem. Thermodyn. 2020, 140, 105893",https://doi.org/10.1016/j.jct.2019.105893,Transpiration method
+34,339.2,0.4061,,," J. Chem. Thermodyn. 2020, 140, 105893",https://doi.org/10.1016/j.jct.2019.105893,Transpiration method
+35,343.2,0.5902,,," J. Chem. Thermodyn. 2020, 140, 105893",https://doi.org/10.1016/j.jct.2019.105893,Transpiration method
+36,346.2,0.8408,,," J. Chem. Thermodyn. 2020, 140, 105893",https://doi.org/10.1016/j.jct.2019.105893,Transpiration method
+37,350.2,1.2210,,," J. Chem. Thermodyn. 2020, 140, 105893",https://doi.org/10.1016/j.jct.2019.105893,Transpiration method

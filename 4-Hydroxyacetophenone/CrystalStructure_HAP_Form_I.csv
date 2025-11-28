@@ -1,0 +1,11 @@
+Identifier, Property              , a /Angstrom,"		 Std", b /Angstrom,"		 Std", c /Angstrom,"		 Std",alfa,Std,Beta,Std,gama,Std," 	N",    Name,    Reference    ,"	              Comment"
+1,Unit Cell @ 168 K,7.538,0.002,8.380,0.002,10.923,0.003,90,,94.248,0.018,90,,,Form I,HACTPH12,Space Group P21/c
+2,Unit Cell @ 298 K,7.7200,0.0015,8.3600,0.0017,11.280,0.002,90,,95.02,0.03,90,,,Form I,HACTPH14,Space Group P21/c
+3,Unit Cell @ 150 K,7.5625,0.0008,8.3904,0.0008,10.9758,0.0011,90,,94.2976,0.0016,90,,,Form I,HACTPH16,Space Group P21/c
+4,Unit Cell @ 40 K,7.4606,0.0008,8.4594,0.0008,10.8314,0.0010,90,,94.307,0.010,90,,,Form I,HACTPH17,Space Group P21/c
+5,Unit Cell @ 296 K,7.6862,0.0003,8.2977,0.0003,11.2380,0.0003,90,,94.967,0.003,90,,,Form I,HACTPH22,Space Group P21/c
+6,Unit Cell @ 200 K,7.5970,0.0004,8.3514,0.0003,11.0464,0.0005,90,,94.449,0.004,90,,,Form I,HACTPH23,Space Group P21/c
+7,Unit Cell @123 K,7.5348,0.0002,8.4089,0.0002,10.9417,0.0003,90,,94.313,0.003,90,,,Form I,HACTPH24,Space Group P21/c
+8,Unit Cell @ 100 K,7.5135,0.0003,8.4180,0.0003,10.9142,0.0004,90,,94.276,0.003,90,,,Form I,HACTPH26,Space Group P21/c
+9,Unit Cell @ 150 K,7.5558,0.0004,8.3783,0.0003,10.9642,0.0004,90,,94.325,0.004,90,,,Form I,HACTPH27,Space Group P21/c
+10,Unit Cell @ 113.2 K,7.5344,0.0005,8.3710,0.0003,10.9422,0.0007,90,,94.278,0.005,90,,,Form I,HACTPH31,Space Group P21/c
