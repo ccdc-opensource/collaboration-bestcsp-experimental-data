@@ -1,4 +1,0 @@
-Identifier, Property              , Value (kJ/mol),"		 Std"," 	N",    Name,    Reference    ,"	              Comment"
-1,Activation Energy,211,,     ,"Cryst. Growth Des. 2017, 17, 1918-1932",http://dx.doi.org/10.1021/Cg7012792 ,DSC 204 F1-Phoenix from Netzsch : Friedman's method
-2,Activation Energy,240,,     ,"Cryst. Growth Des. 2017, 17, 1918-1932",https://doi.org/ 10.1021/acs.cgd.6b01876,DSC 204 F1-Phoenix from Netzsch : Starink’s and Vyazovkin’s methods
-3,Activation Energy,209,,     ,"Cryst. Growth Des. 2017, 17, 1918-1932",https://doi.org/ 10.1021/acs.cgd.6b01876,Temperature-Resolved Second Harmonic Generation (TR-SHG) : Standard isoconversional method
