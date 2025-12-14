@@ -1,0 +1,11 @@
+##TITLE= Parameter file, TopSpin 4.3.0
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 2	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ 2025-01-08 09:40:23.014 +0100  Marta@oslica
+$$ D:/widma/BEST-CSP/metacetamol_400/1/pdata/1/assocs
+$$ process C:\Bruker\TopSpin4.3.0\prog\mod\dataserver.exe
+##$MULTDISP= <D:/widma/BEST-CSP/metacetamol_400/10/pdata/1>
+##END=
