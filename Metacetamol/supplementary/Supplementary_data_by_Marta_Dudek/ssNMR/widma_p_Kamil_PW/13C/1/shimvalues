@@ -1,0 +1,61 @@
+# Thu Dec 19 11:23:26 2024
+#$$PROBEID=44
+#$$PROBEINFO=4 mm MAS 1H/BB K1439/07
+#$$PICSINFO=K1439_07_44.par
+#
+# Active Shim Gradients
+#
+Z           		-2900           
+Z2          		0               
+Z3          		0               
+Z4          		0               
+Z5          		0               
+X           		0               
+XZ          		0               
+XZ2         		0               
+Y           		300             
+YZ          		-60000          
+YZ2         		0               
+XY          		0               
+XYZ         		0               
+(X2-Y2)     		0               
+(X2-Y2)Z    		0               
+X3          		0               
+Y3          		0               
+#
+# Lock Parameter
+#
+LOCKPHASE		233.700 
+LOCKPOWER		-28.000 
+LOCKGAIN		103.400 
+LOCKDC		-16.600 
+LOCKSHIFT		2.050   
+FIELD		-178.000
+LOOPGAIN		-2.000  
+LOOPTIME		0.100   
+LOOPFILTER		200.000 
+#
+IEEE64_VERSION_CODE 1
+#
+# Shim currents 
+#
+SHIM_SETTING [1 ]  -1406.50000000  
+SHIM_SETTING [2 ]  0.00000000      
+SHIM_SETTING [3 ]  0.00000000      
+SHIM_SETTING [4 ]  0.00000000      
+SHIM_SETTING [5 ]  0.00000000      
+SHIM_SETTING [6 ]  -0.00000000     
+SHIM_SETTING [7 ]  0.00000000      
+SHIM_SETTING [8 ]  0.00000000      
+SHIM_SETTING [9 ]  -0.00000000     
+SHIM_SETTING [10]  0.00000000      
+SHIM_SETTING [11]  157.80000000    
+SHIM_SETTING [12]  -31560.00000000 
+SHIM_SETTING [13]  0.00000000      
+SHIM_SETTING [14]  0.00000000      
+SHIM_SETTING [15]  0.00000000      
+SHIM_SETTING [16]  0.00000000      
+SHIM_SETTING [17]  0.00000000      
+SHIM_SETTING [18]  0.00000000      
+SHIM_SETTING [19]  0.00000000      
+SHIM_SETTING [20]  0.00000000      
