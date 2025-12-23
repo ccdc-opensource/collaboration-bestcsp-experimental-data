@@ -1,0 +1,11 @@
+SANBAN
+"Identifier,	Property,		    Value (kJ/mol),		Std, 	N,       Name,	              Comment,            Reference "
+1         , Enthalpy of fusion,   26.80838,        ,     ,       Kons,       Artis Kons e-mail 2 Sept 2024,        
+2         , Enthalpy of fusion,   26.53993,        ,     ,       Kons,       Artis Kons e-mail 2 Sept 2024,
+3         , Enthalpy of fusion,   25.66036,        ,     ,       Kons,       Artis Kons e-mail 2 Sept 2024,
+4         , Enthalpy of fusion,   25.93973,        ,     ,       Kons,       Artis Kons e-mail 2 Sept 2024,
+5         , Enthalpy of fusion,   25.7673,         ,     ,       Kons,       Artis Kons e-mail 2 Sept 2024,
+6         , Enthalpy of fusion,   25.1,        0.6,     ,       Rekis_17,                                 , 10.1021/acs.cgd.6b0186
+7        , Enthalpy of fusion, 29.30, 0.12,5, Hermínio Diogo ,25 K/min (TA 2920MDSC), Manuel Minas da Piedades email 15/11/2024
+8        , Enthalpy of fusion, 26.72, 0.41, 5, Ricardo G. Simões, 25 K/min (Perkin Elmer DSC 7), Manuel Minas da Piedades email 15/11/2024
+9         , Enthalpy of fusion,   28.25,  0.32 ,  3,  Stejfa Vojtech,   10 K/min (TA DSC Discovery 2500),  Stejfa Vojtech email 12/03/2025
