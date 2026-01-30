@@ -1,0 +1,35 @@
+Phenylpiracetam Form B,,,,,,,
+Identifier,Property,Value (J/molK),Std,N,Name,Comment,Reference
+1,Heat capacity at 240 K,216.7,,,Stejfa Vojtech,Setaram Microcalvet (Continous method, three-step evaluation),Stejfa Vojtech email 12/03/2025
+2,Heat capacity at 245 K,220.9,,,Stejfa Vojtech,Setaram Microcalvet (Continous method, three-step evaluation),Stejfa Vojtech email 12/03/2025
+3,Heat capacity at 250 K,225.2,,,Stejfa Vojtech,Setaram Microcalvet (Continous method, three-step evaluation),Stejfa Vojtech email 12/03/2025
+4,Heat capacity at 255 K,229.4,,,Stejfa Vojtech,Setaram Microcalvet (Continous method, three-step evaluation),Stejfa Vojtech email 12/03/2025
+5,Heat capacity at 260 K,233.6,,,Stejfa Vojtech,Setaram Microcalvet (Continous method, three-step evaluation),Stejfa Vojtech email 12/03/2025
+6,Heat capacity at 265 K,237.8,,,Stejfa Vojtech,Setaram Microcalvet (Continous method, three-step evaluation),Stejfa Vojtech email 12/03/2025
+7,Heat capacity at 270 K,242.4,,,Stejfa Vojtech,Setaram Microcalvet (Continous method, three-step evaluation),Stejfa Vojtech email 12/03/2025
+8,Heat capacity at 275 K,246.7,,,Stejfa Vojtech,Setaram Microcalvet (Continous method, three-step evaluation),Stejfa Vojtech email 12/03/2025
+9,Heat capacity at 280 K,250.9,,,Stejfa Vojtech,Setaram Microcalvet (Continous method, three-step evaluation),Stejfa Vojtech email 12/03/2025
+10,Heat capacity at 285 K,255.4,,,Stejfa Vojtech,Setaram Microcalvet (Continous method, three-step evaluation),Stejfa Vojtech email 12/03/2025
+11,Heat capacity at 290 K,259.7,,,Stejfa Vojtech,Setaram Microcalvet (Continous method, three-step evaluation),Stejfa Vojtech email 12/03/2025
+12,Heat capacity at 295 K,264.0,,,Stejfa Vojtech,Setaram Microcalvet (Continous method, three-step evaluation),Stejfa Vojtech email 12/03/2025
+13,Heat capacity at 300 K,268.3,,,Stejfa Vojtech,Setaram Microcalvet (Continous method, three-step evaluation),Stejfa Vojtech email 12/03/2025
+14,Heat capacity at 305 K,272.6,,,Stejfa Vojtech,Setaram Microcalvet (Continous method, three-step evaluation),Stejfa Vojtech email 12/03/2025
+15,Heat capacity at 310 K,276.9,,,Stejfa Vojtech,Setaram Microcalvet (Continous method, three-step evaluation),Stejfa Vojtech email 12/03/2025
+16,Heat capacity at 315 K,281.2,,,Stejfa Vojtech,Setaram Microcalvet (Continous method, three-step evaluation),Stejfa Vojtech email 12/03/2025
+17,Heat capacity at 320 K,285.4,,,Stejfa Vojtech,Setaram Microcalvet (Continous method, three-step evaluation),Stejfa Vojtech email 12/03/2025
+18,Heat capacity at 325 K,289.6,,,Stejfa Vojtech,Setaram Microcalvet (Continous method, three-step evaluation),Stejfa Vojtech email 12/03/2025
+19,Heat capacity at 330 K,294.0,,,Stejfa Vojtech,Setaram Microcalvet (Continous method, three-step evaluation),Stejfa Vojtech email 12/03/2025
+20,Heat capacity at 335 K,298.3,,,Stejfa Vojtech,Setaram Microcalvet (Continous method, three-step evaluation),Stejfa Vojtech email 12/03/2025
+21,Heat capacity at 340 K,302.5,,,Stejfa Vojtech,Setaram Microcalvet (Continous method, three-step evaluation),Stejfa Vojtech email 12/03/2025
+22,Heat capacity at 345 K,306.8,,,Stejfa Vojtech,Setaram Microcalvet (Continous method, three-step evaluation),Stejfa Vojtech email 12/03/2025
+23,Heat capacity at 350 K,311.0,,,Stejfa Vojtech,Setaram Microcalvet (Continous method, three-step evaluation),Stejfa Vojtech email 12/03/2025
+24,Heat capacity at 307.70 K,272.11,,,Rekis_17,,,10.1021/acs.cgd.6b01867
+25,Heat capacity at 315.72 K,280.65,,,Rekis_17,,,10.1021/acs.cgd.6b01867
+26,Heat capacity at 323.72 K,287.80,,,Rekis_17,,,10.1021/acs.cgd.6b01867
+27,Heat capacity at 331.72 K,296.61,,,Rekis_17,,,10.1021/acs.cgd.6b01867
+28,Heat capacity at 339.71 K,302.88,,,Rekis_17,,,10.1021/acs.cgd.6b01867
+29,Heat capacity at 347.71 K,309.45,,,Rekis_17,,,10.1021/acs.cgd.6b01867
+30,Heat capacity at 355.71 K,316.86,,,Rekis_17,,,10.1021/acs.cgd.6b01867
+31,Heat capacity at 363.70 K,325.56,,,Rekis_17,,,10.1021/acs.cgd.6b01867
+32,Heat capacity at 371.70 K,331.50,,,Rekis_17,,,10.1021/acs.cgd.6b01867
+33,Heat capacity at 379.70 K,342.12,,,Rekis_17,,,10.1021/acs.cgd.6b01867
