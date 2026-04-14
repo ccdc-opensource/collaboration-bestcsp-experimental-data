@@ -75,10 +75,3 @@ Identifier,Property,Value (Angstrom),Std,N,Name,Comment,Reference
 73,Cell parameter b @120K,10.7894,0.00027,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
 74,Cell parameter b @110K,10.7877,0.00027,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
 75,Cell parameter b @100K,10.7861,0.00028,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
-76,Cell parameter b @296.15K,10.82869,0.00209,1,Nicolas Couvrat/Ivo Rietveld,Experimental data,Unpublished experimental data
-77,Cell parameter b @304.15K,10.83013,0.00141,1,Nicolas Couvrat/Ivo Rietveld,Experimental data,Unpublished experimental data
-78,Cell parameter b @314.15K,10.82997,0.00168,1,Nicolas Couvrat/Ivo Rietveld,Experimental data,Unpublished experimental data
-79,Cell parameter b @324.15K,10.83664,0.0019,1,Nicolas Couvrat/Ivo Rietveld,Experimental data,Unpublished experimental data
-80,Cell parameter b @335.15K,10.84147,0.00156,1,Nicolas Couvrat/Ivo Rietveld,Experimental data,Unpublished experimental data
-81,Cell parameter b @345.15K,10.84522,0.00158,1,Nicolas Couvrat/Ivo Rietveld,Experimental data,Unpublished experimental data
-82,Cell parameter b @355.15K,10.84988,0.00144,1,Nicolas Couvrat/Ivo Rietveld,Experimental data,Unpublished experimental data

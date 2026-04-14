@@ -75,10 +75,3 @@ Identifier,Property,Value (Degrees),Std,N,Name,Comment,Reference
 73,Angle alpha @120K,76.495,0.0022,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
 74,Angle alpha @110K,76.481,0.0021,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
 75,Angle alpha @100K,76.464,0.0022,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
-76,Angle alpha @296.15K,76.86754,0.00944,1,Nicolas Couvrat/Ivo Rietveld,Experimental data,Unpublished experimental data
-77,Angle alpha @304.15K,76.87101,0.00969,1,Nicolas Couvrat/Ivo Rietveld,Experimental data,Unpublished experimental data
-78,Angle alpha @314.15K,76.893,0.00934,1,Nicolas Couvrat/Ivo Rietveld,Experimental data,Unpublished experimental data
-79,Angle alpha @324.15K,76.89714,0.00876,1,Nicolas Couvrat/Ivo Rietveld,Experimental data,Unpublished experimental data
-80,Angle alpha @335.15K,76.90992,0.00867,1,Nicolas Couvrat/Ivo Rietveld,Experimental data,Unpublished experimental data
-81,Angle alpha @345.15K,76.92738,0.00862,1,Nicolas Couvrat/Ivo Rietveld,Experimental data,Unpublished experimental data
-82,Angle alpha @355.15K,76.91784,0.00652,1,Nicolas Couvrat/Ivo Rietveld,Experimental data,Unpublished experimental data
