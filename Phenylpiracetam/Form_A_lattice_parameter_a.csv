@@ -1,9 +1,77 @@
 Phenylpiracetam Form A,,,,,,,
 Identifier,Property,Value (Angstrom),Std,N,Name,Comment,Reference
-1,Cell parameter a @296.15K,6.1819,0.00381,1,Nicolas Couvrat/Ivo Rietveld,Experimental data,Unpublished experimental data
-2,Cell parameter a @304.15K,6.19147,0.00307,1,Nicolas Couvrat/Ivo Rietveld,Experimental data,Unpublished experimental data
-3,Cell parameter a @314.15K,6.2017,0.00302,1,Nicolas Couvrat/Ivo Rietveld,Experimental data,Unpublished experimental data
-4,Cell parameter a @324.15K,6.22111,0.00279,1,Nicolas Couvrat/Ivo Rietveld,Experimental data,Unpublished experimental data
-5,Cell parameter a @335.15K,6.22893,0.0028,1,Nicolas Couvrat/Ivo Rietveld,Experimental data,Unpublished experimental data
-6,Cell parameter a @345.15K,6.23966,0.00241,1,Nicolas Couvrat/Ivo Rietveld,Experimental data,Unpublished experimental data
-7,Cell parameter a @355.15K,6.2519,0.00161,1,Nicolas Couvrat/Ivo Rietveld,Experimental data,Unpublished experimental data
+1,Cell parameter a @300K,6.1934,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+2,Cell parameter a @290K,6.1859,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+3,Cell parameter a @280K,6.1799,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+4,Cell parameter a @270K,6.1741,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+5,Cell parameter a @260K,6.1682,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+6,Cell parameter a @250K,6.1625,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+7,Cell parameter a @240K,6.1568,0.00013,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+8,Cell parameter a @230K,6.1510,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+9,Cell parameter a @220K,6.1453,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+10,Cell parameter a @210K,6.1395,0.00013,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+11,Cell parameter a @200K,6.1338,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+12,Cell parameter a @190K,6.1280,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+13,Cell parameter a @180K,6.1226,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+14,Cell parameter a @170K,6.1173,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+15,Cell parameter a @160K,6.1121,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+16,Cell parameter a @150K,6.1066,0.00013,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+17,Cell parameter a @140K,6.1015,0.00013,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+18,Cell parameter a @130K,6.0966,0.00013,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+19,Cell parameter a @120K,6.0913,0.00013,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+20,Cell parameter a @110K,6.0861,0.00013,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+21,Cell parameter a @100K,6.0810,0.00013,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+22,Cell parameter a @110K,6.0861,0.00013,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+23,Cell parameter a @120K,6.0915,0.00013,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+24,Cell parameter a @130K,6.0964,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+25,Cell parameter a @140K,6.1014,0.00013,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+26,Cell parameter a @150K,6.1067,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+27,Cell parameter a @160K,6.1118,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+28,Cell parameter a @170K,6.1173,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+29,Cell parameter a @180K,6.1227,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+30,Cell parameter a @190K,6.1281,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+31,Cell parameter a @200K,6.1338,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+32,Cell parameter a @210K,6.1395,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+33,Cell parameter a @220K,6.1453,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+34,Cell parameter a @230K,6.1509,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+35,Cell parameter a @240K,6.1567,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+36,Cell parameter a @250K,6.1627,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+37,Cell parameter a @260K,6.1684,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+38,Cell parameter a @270K,6.1742,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+39,Cell parameter a @280K,6.1799,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+40,Cell parameter a @290K,6.1858,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+41,Cell parameter a @300K,6.1918,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+42,Cell parameter a @310K,6.1980,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+43,Cell parameter a @320K,6.2045,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+44,Cell parameter a @330K,6.2111,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+45,Cell parameter a @340K,6.2178,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+46,Cell parameter a @350K,6.2246,0.00013,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+47,Cell parameter a @360K,6.2319,0.00013,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+48,Cell parameter a @370K,6.2387,0.00013,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+49,Cell parameter a @360K,6.2318,0.00013,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+50,Cell parameter a @350K,6.2244,0.00013,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+51,Cell parameter a @340K,6.2176,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+52,Cell parameter a @330K,6.2111,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+53,Cell parameter a @320K,6.2044,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+54,Cell parameter a @310K,6.1980,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+55,Cell parameter a @300K,6.1918,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+56,Cell parameter a @290K,6.1859,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+57,Cell parameter a @280K,6.1801,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+58,Cell parameter a @270K,6.1744,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+59,Cell parameter a @260K,6.1686,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+60,Cell parameter a @250K,6.1629,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+61,Cell parameter a @240K,6.1570,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+62,Cell parameter a @230K,6.1514,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+63,Cell parameter a @220K,6.1455,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+64,Cell parameter a @210K,6.1398,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+65,Cell parameter a @200K,6.1342,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+66,Cell parameter a @190K,6.1284,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+67,Cell parameter a @180K,6.1230,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+68,Cell parameter a @170K,6.1177,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+69,Cell parameter a @160K,6.1123,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+70,Cell parameter a @150K,6.1070,0.00012,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+71,Cell parameter a @140K,6.1019,0.00013,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+72,Cell parameter a @130K,6.0967,0.00013,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+73,Cell parameter a @120K,6.0918,0.00013,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+74,Cell parameter a @110K,6.0863,0.00013,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
+75,Cell parameter a @100K,6.0812,0.00013,,Jan Rohlicek,VT-XRPD Empyrean PANalytical PIXcel3D Oxford Cryostream 700+,Stejfa Vojtech email 12/03/2025
