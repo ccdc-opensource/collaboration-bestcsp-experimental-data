@@ -1,0 +1,24 @@
+;$OWNER=Stefan Steuernagel
+ 0.3u fq=cnst21 
+ 0.5u pl=pl12
+1 pcpd*0.78:0
+  pcpd*0.78:25
+  pcpd*0.86:0
+  pcpd*0.86:25
+  pcpd*0.94:0
+  pcpd*0.94:25
+  pcpd*0.96:0
+  pcpd*0.96:25
+  pcpd*0.98:0
+  pcpd*0.98:25
+  pcpd*1.02:0
+  pcpd*1.02:25
+  pcpd*1.04:0
+  pcpd*1.04:25
+  pcpd*1.06:0
+  pcpd*1.06:25
+  pcpd*1.14:0
+  pcpd*1.14:25
+  pcpd*1.22:0
+  pcpd*1.22:25
+jump to 1

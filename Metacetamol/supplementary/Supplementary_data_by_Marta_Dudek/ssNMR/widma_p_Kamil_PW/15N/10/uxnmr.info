@@ -1,0 +1,136 @@
+CONFIGURATION INFORMATION
+=========================
+
+Path         : C:/Bruker/TopSpin3.1_7/conf/instr/AV_III_600/uxnmr.info
+Date         : Mon Dec 16 12:54:01 2024
+Release      : TopSpin Acquisition Version 3.1-pl7
+Installed in : C:/Bruker/TopSpin3.1_7
+Host         : CZC10666P2
+OS           : Windows 7 (Vs 6.1) Service Pack 1
+CPU          : Intel(R) Xeon(R) CPU W3505 @ 2.53GHz (2 cores at 2533 MHz)
+User         : nmrsu
+Description  : Avance III 600 Ascend
+Location     : CBMM PAN LODZ
+System       : Avance III NMR spectrometer
+1H-frequency : 600.15 MHz
+Order Number : 
+Configured in: C:/Bruker/TopSpin3.1_7/conf/instr/AV_III_600
+
+IPSO: connected to spectrometer subnet
+- TCP/IP address = 149.236.99.251
+- Tctrl : 1
+- Fctrls: 3
+- Gctrl1: without digital preemphasis
+- Rctrl : none
+- FREDs : none
+- DPP : none
+
+DRU: AQS DRU-E Z102520/02454 ECL 06.01
+- TCP/IP address = 149.236.99.89
+- Firmware Version = 151014
+- DRU controls AQS-Rack and HPPR/2
+
+AQS: connected to 149.236.99.89:/dev/tty10
+  _Slot_ SBSB _____________________Board_____________________
+  Number Addr Type HW-VS FW-VS ID  ECL Name   Description
+  -----------------------------------------------------------
+     2   0x10 0x42   0x4    AW  R  5.1 REC-1  AQS RXAD600 Z102117/1169 ECL 05.01
+     3   0x34 0xc0   0x1        X  2.3 REF-1  REF-600 Reference Board for AQS Receiver
+     4   0x24 0x19   0x8    AE  S  2.8 SGU-1  AQS SGU/2 600 Z103081/02618 ECL 02.08 FPGA-Vs=AF
+     5   0x25 0x19   0x8    AE  S  2.7 SGU-2  AQS SGU/2 600 Z103081/02616 ECL 02.07 FPGA-Vs=AF
+     6   0x26 0x19   0x8    AE  S  2.7 SGU-3  AQS SGU/2 600 Z103081/02617 ECL 02.07 FPGA-Vs=AF
+    21   0x21 0xcf     0        P  1.0 PSD-1  PSD/3 Power Supply Distribution Board
+    --   0x20 0xd1     0        B  3.2 MASTER AQS/3 Chassis
+     1   0x20  0x7     0        B      MASTER AQS Rack Master
+  Logical Receiver/SGU configuration:
+
+
+Router: none installed
+
+
+Transmitters at the spectrometer subnet:
+----------------------------------------
+BLA_W1345094_0080 W1345094/0080 ECL 1:
+- TCP/IP address = 149.236.99.254
+- Firmware VS    = 20120627
+- Amplifier      = BLA2X500 E 6-365MHZ INR: W1345094/0080 ECL 1
+- Router         = BLMMR32 RF AMPLIFIER MODULE: W1345204/1209 ECL 0
+- Controller     = BLA CONTROL BOARD 6 2CH: W1522050/5814 ECL 50
+BLA_W1345087_0141 W1345087/0141 ECL 2:
+- TCP/IP address = 149.236.99.253
+- Firmware VS    = 20120627
+- Amplifier      = BLAH300 E 200-600MHZ INR: W1345087/0141 ECL 2
+- Router         = BLMMR31 RF AMPLIFIER MODULE: W1345212/1612 ECL 2
+- Controller     = BLA CONTROL BOARD 6 2CH: W1522050/5767 ECL 50
+BLA_W1345087_0145 W1345087/0145 ECL 2:
+- TCP/IP address = 149.236.99.252
+- Firmware VS    = 20120627
+- Amplifier      = BLAH300 E 200-600MHZ INR: W1345087/0145 ECL 2
+- Router         = BLMMR31 RF AMPLIFIER MODULE: W1345212/1646 ECL 2
+- Controller     = BLA CONTROL BOARD 6 2CH: W1522050/5837 ECL 50
+LTRX Z109890/00187 ECL 02.00:
+- TCP/IP address = 149.236.99.20
+- Amplifier      = BSMS/2 LOCK TRANSCEIVER 600: Z109890/00187 ECL 02.00
+
+BSMS: BSMS/2 connected to ethernet
+- TCP/IP address = 149.236.99.20
+- ELCB firmware version = 20111004
+- GAB current limits = 0.0/X, 0.0/Y, 10.0/Z (in A)
+- SCB channels = 40
+- Shim System = BOSS3-SB
+- L-TRX = BSMS/2 LOCK TRANSCEIVER 600: Z109890/00187 ECL 02.00
+- Lock: on L-TRX board
+- VTU_SPB = BSMS/2 SPB SENSOR & PNEUMATIC BD: Z115191/00475 ECL 02.03
+- VTU_VPSB1 = BSMS/2 VARIABLE POWER SUPPLY BD: Z115193/00551 ECL 01.02
+
+VTU: in BSMS/2 connected to ethernet
+- TCP/IP address = 149.236.99.20
+
+MAS2 control unit: connected to 149.236.99.251:/dev/tty01
+- Boot Software        : 20100908
+- Application Software : 20090331
+- Insert Time          : 5 s
+- Eject Time           : 5 s
+- Spin Lock Tolerance  : 5 Hz
+
+Preamplifiers :
+HPPR: - HPPR/2 preamplifier connected to 149.236.99.89:/dev/tty10
+    Type      : HPPR/2
+    Controller: Application firmware = AQ
+                15 LEDs for tuning, 15 LEDs for matching
+    Module  1 : HPLNA 19F1H (virtual 50 Ohm reference: 101.0%/0.3deg, reflection meter)
+                 PN=Z103205, SN=00063 from 20110517
+    Module  2 : 2H
+                 PN=Z003473, SN=00836 from 20110502
+    Module  3 : XBB19F 2HS
+                 PN=Z003506, SN=00978 from 20110510
+    Module  4 : XBB19F 2HP
+                 PN=Z105186, SN=00209 from 20151013
+
+
+Frequency generation:
+- F1: for SGU
+- F2: for SGU
+- F3: for SGU
+
+
+
+RF cable connections (detected by 'confamp')
+--------------------------------------------------------------------
+SGU1 NORM output -> input 1 of transmitter 1 (BLA2X500 E 6-365MHZ INR W1345094/0080 at TCP/IP 149.236.99.254)
+SGU1 AUX  output -> input 1 of transmitter 4 (BSMS/2 LOCK TRANSCEIVER 600 Z109890/00187 at TCP/IP 149.236.99.20)
+SGU2 NORM output -> input 1 of transmitter 2 (BLAH300 E 200-600MHZ INR W1345087/0141 at TCP/IP 149.236.99.253)
+SGU2 AUX  output -> TUNE signal input of HPPR
+SGU3 NORM output -> input 1 of transmitter 3 (BLAH300 E 200-600MHZ INR W1345087/0145 at TCP/IP 149.236.99.252)
+SGU3 AUX  output -> input 2 of transmitter 1 (BLA2X500 E 6-365MHZ INR W1345094/0080 at TCP/IP 149.236.99.254)
+
+Blanking cable connections (detected by 'confamp')
+--------------------------------------------------------------------
+transmitter 1 (BLA2X500 E 6-365MHZ INR W1345094/0080 at TCP/IP 149.236.99.254) amplifier X-500W uses blanking 1
+transmitter 1 (BLA2X500 E 6-365MHZ INR W1345094/0080 at TCP/IP 149.236.99.254) amplifier X-500W uses blanking 2
+transmitter 2 (BLAH300 E 200-600MHZ INR W1345087/0141 at TCP/IP 149.236.99.253) amplifier 1H-300W uses blanking 3
+transmitter 2 (BLAH300 E 200-600MHZ INR W1345087/0141 at TCP/IP 149.236.99.253) amplifier 1H-50W uses blanking 3
+transmitter 3 (BLAH300 E 200-600MHZ INR W1345087/0145 at TCP/IP 149.236.99.252) amplifier 1H-300W uses blanking 4
+transmitter 3 (BLAH300 E 200-600MHZ INR W1345087/0145 at TCP/IP 149.236.99.252) amplifier 1H-50W uses blanking 4
+transmitter 4 (BSMS/2 LOCK TRANSCEIVER 600 Z109890/00187 at TCP/IP 149.236.99.20) amplifier 2H-5W uses blanking 7
+
