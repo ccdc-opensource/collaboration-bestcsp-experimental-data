@@ -1,4 +1,5 @@
 # imports
+import os
 import glob
 import sys
 import math
@@ -30,8 +31,8 @@ def write_table_to_disk(table, name):
 
     return
 
-
-files = glob.glob('%s\\*.csv' % (sys.argv[1]))
+folder = sys.argv[1]
+files = glob.glob(os.path.join(folder, '*csv')) #'%s\\*.csv' % (sys.argv[1]))
 print("Found", len(files), "csv files:")
 for filename in files:
     print(filename)
