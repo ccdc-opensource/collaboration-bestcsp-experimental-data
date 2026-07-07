@@ -1,0 +1,7 @@
+Identifier,Property,Value Celsius,Std,N,Name,Reference,Comment
+1,melting point of form II,234.7,0.6,8,,"Bachelor intern, Université de Rouen, 2026","Measurement values, 10 K/min, possible decomposition"
+2,melting point of form II,234.7,0.4,7,,"Bachelor intern, Université de Rouen, 2026","Measurement values, 5 K/min, possible decomposition"
+3,Transition III ? II,101.65,0.16,11,,"Bachelor intern, Université de Rouen, 2026","Measurement values, 10 K/min"
+4,Transition III ? II,101.6,0.4,7,,"Bachelor intern, Université de Rouen, 2026","Measurement values, 5 K/min"
+5,Transition IV ? III,8.1,2,12,,"Bachelor intern, Université de Rouen, 2026","Measurement values, 10 K/min"
+6,Transition IV ? III,7.4,3,7,,"Bachelor intern, Université de Rouen, 2026","Measurement values, 5 K/min"
