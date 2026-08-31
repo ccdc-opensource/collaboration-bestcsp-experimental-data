@@ -3,3 +3,29 @@ Identifier,Property,Value (kJ/mol),Std,N,Name,Reference,Comment
 1,Enthalpy of transition,0.73,,1,Moreno-Leon,https://doi.org/10.1016/j.molliq.2022.120365,10 K min-1
 2,Enthalpy of transition,1.13,,,Chen,https://doi.org/10.1016/j.jct.2016.08.002,lattice energy DFT-D calculation 
 3,Enthalpy of transition,0.73,0.06,7,Evora,https://doi.org/10.1039/C2CE26244D,DSC 10 K min-1
+4,Enthalpy of transition,0.90,0.03,4,Vojtěch,This Work,DSC
+5,Enthalpy of transition,1.01,0.03,6,Minas de Piedade, This work, Solution Calorimetry at 298.15 K
+6,Enthalpy of transition,0.71,0.03,2,Marta Dudek,This work,FII to FI- DSC 10 K min-1
+7,Enthalpy of transition at 300,1.009,,1,Minas da Piedade,This work,Calculated from Enthalpy determined at 298.15 and heat capacity
+8,Enthalpy of transition at 305,0.996,,1,Minas da Piedade,This work,Calculated from Enthalpy determined at 298.15 and heat capacity
+9,Enthalpy of transition at 310,0.983,,1,Minas da Piedade,This work,Calculated from Enthalpy determined at 298.15 and heat capacity
+10,Enthalpy of transition at 312.65,0.976,,1,Minas da Piedade,This work,Calculated from Enthalpy determined at 298.15 and heat capacity
+11,Enthalpy of transition at 315,0.970,,1,Minas da Piedade,This work,Calculated from Enthalpy determined at 298.15 and heat capacity
+12,Enthalpy of transition at 320,0.955,,1,Minas da Piedade,This work,Calculated from Enthalpy determined at 298.15 and heat capacity
+13,Enthalpy of transition at 325,0.941,,1,Minas da Piedade,This work,Calculated from Enthalpy determined at 298.15 and heat capacity
+14,Enthalpy of transition at 330,0.925,,1,Minas da Piedade,This work,Calculated from Enthalpy determined at 298.15 and heat capacity
+15,Enthalpy of transition at 335,0.909,,1,Minas da Piedade,This work,Calculated from Enthalpy determined at 298.15 and heat capacity
+16,Enthalpy of transition at 340,0.893,,1,Minas da Piedade,This work,Calculated from Enthalpy determined at 298.15 and heat capacity
+17,Enthalpy of transition at 345,0.875,,1,Minas da Piedade,This work,Calculated from Enthalpy determined at 298.15 and heat capacity
+18,Enthalpy of transition at 350,0.858,,1,Minas da Piedade,This work,Calculated from Enthalpy determined at 298.15 and heat capacity
+18,Enthalpy of transition at 355,0.839,,1,Minas da Piedade,This work,Calculated from Enthalpy determined at 298.15 and heat capacity
+19,Enthalpy of transition at 360,0.820,,1,Minas da Piedade,This work,Calculated from Enthalpy determined at 298.15 and heat capacity
+20,Enthalpy of transition at 365,0.800,,1,Minas da Piedade,This work,Calculated from Enthalpy determined at 298.15 and heat capacity
+21,Enthalpy of transition at 369.7,0.781,,1,Minas da Piedade,This work,Calculated from Enthalpy determined at 298.15 and heat capacity
+22,Enthalpy of transition at 370,0.780,,1,Minas da Piedade,This work,Calculated from Enthalpy determined at 298.15 and heat capacity
+23,Enthalpy of transition at 375,0.759,,1,Minas da Piedade,This work,Calculated from Enthalpy determined at 298.15 and heat capacity
+24,Enthalpy of transition at 380,0.738,,1,Minas da Piedade,This work,Calculated from Enthalpy determined at 298.15 and heat capacity
+25,Enthalpy of transition at 385,0.716,,1,Minas da Piedade,This work,Calculated from Enthalpy determined at 298.15 and heat capacity
+26,Enthalpy of transition at 390,0.693,,1,Minas da Piedade,This work,Calculated from Enthalpy determined at 298.15 and heat capacity
+27,Enthalpy of transition at 395,0.669,,1,Minas da Piedade,This work,Calculated from Enthalpy determined at 298.15 and heat capacity
+28,Enthalpy of transition at 400,0.646,,1,Minas da Piedade,This work,Calculated from Enthalpy determined at 298.15 and heat capacity

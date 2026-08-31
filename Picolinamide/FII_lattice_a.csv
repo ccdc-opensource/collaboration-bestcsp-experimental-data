@@ -1,0 +1,8 @@
+﻿Identifier,Property,Value (Angstrom),Std,N,Name,Reference,Comment
+1,Lattice param a @150K,5.1578,0.0004,1,,http://dx.doi.org/10.1039/c2ce26244d,
+2,Lattice param a @295K,5.190,0.02,1,,http://dx.doi.org/10.1107/S0365110X66003396,
+3,Lattice param a @293K,5.1973,0.0003,1,,http://dx.doi.org/10.1039/c2ce26244d,
+4,Lattice param a @296K,5.2074,0.001,1,,http://dx.doi.org/10.4236/csta.2012.13006,
+5,Lattice param a @150K,	5.1619,	0.0003,	1,	Tinnemans,	This work,
+6,Lattice param a @296K,	5.2053,	0.0001,	1,	Baptista,	This work,
+7,Lattice param a @100K, 5.14931, 0.00011, 1, Hoser, This work,
