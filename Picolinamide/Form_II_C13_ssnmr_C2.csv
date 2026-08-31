@@ -1,0 +1,3 @@
+PICAMD04
+Identifier,Property,Value (ppm),Std, N, Name, Reference,Comment
+5, C2 @ 298K, 150.72, 0.22, 3, Martin Dracinsky, http://dx.doi.org/10.2139/ssrn.6816156, Mean across 400/600/850 MHz
