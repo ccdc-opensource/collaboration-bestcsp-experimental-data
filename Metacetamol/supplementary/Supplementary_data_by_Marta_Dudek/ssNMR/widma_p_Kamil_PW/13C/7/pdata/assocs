@@ -1,0 +1,11 @@
+##TITLE= Parameter file, TopSpin 4.3.0
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= Marta
+$$ 2024-10-22 13:09:14.748 +0200  Marta@oslica
+$$ D:/widma/BEST-CSP/COST_400/7/pdata/1/assocs
+$$ process C:\Bruker\TopSpin4.3.0\prog\mod\dataserver.exe
+##$MULTDISP= <D:/widma/BEST-CSP/COST_3_2mm_600/1/pdata/1>
+##END=

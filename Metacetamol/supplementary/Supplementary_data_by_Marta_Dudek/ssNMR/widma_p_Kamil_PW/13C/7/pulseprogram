@@ -1,0 +1,231 @@
+# 1 "C:/Bruker/TOPSPIN2.1_6/exp/stan/nmr/lists/pp/user/cp.pp"
+;cp.pp - CP z mozliwoscia wyboru bez ramp/ramp i petla F(0) 
+
+;Avance II+ version
+;parameters: 
+;p3 : proton 90 at power level pl12
+;p15 : contact time at pl1 (f1) and pl2 (f2)
+;pl1 : X power level during contact
+;sp0 : proton power level during contact
+;pl12 : decoupling power level (if not pl13)
+;pl13 : special decoupliong power level
+;d1 : recycle delay
+;pcpd2 : pulse length in decoupling sequence
+;cpdprg2 : cw, tppm (at pl12),spinal64, XiX
+;spnam0 : use e.g. ramp.100 for variable amplitude CP
+;zgoptns : -DRamp ->Shape Puls (ramp,tang) w czasie kontaktu z kanau 1H (f2)
+
+;$COMMENT=basic cp experiment, arbitrary contact and decoupling schemes
+;$CLASS=Solids
+;$DIM=1D
+;$TYPE=cross polarisation
+;$SUBTYPE=simple 1D
+;$OWNER=Bruker
+prosol relations=<solids_cp>
+# 1 "C:/Bruker/TOPSPIN2.1_6/exp/stan/nmr/lists/pp/user/Avancesolids.incl" 1
+;Avancesolids.incl
+;   for 1
+;
+;version 1 28.2.2001, written by HF
+;	   4.4.2006, complemented by Ste
+
+;$COMMENT=definitions for setrtp and setnmr
+;$CLASS=Solids INCL
+
+;switch between 1H or 19F output (H amplifier) 
+;$OWNER=nmrsu
+
+
+
+;gating pulse for RX, ADC and HPPR auto mode
+
+
+
+;explicit blanking of preamp, receiver, adc, not implemented yet
+
+
+
+
+
+
+
+;generate dwell clock
+
+
+;turn dwell clock on/off
+
+
+;
+
+
+
+;define data sampling for WAHUHA type experiments, samples analogue or digitally for d9, closes receiver
+
+
+
+;explicit transmitter blanking, not supported yet
+
+;NCO switching, to be implemented
+# 24 "C:/Bruker/TOPSPIN2.1_6/exp/stan/nmr/lists/pp/user/cp.pp" 2
+
+;"acqt0=1u*cnst11"
+"acqt0=1u"
+# 1 "C:/Bruker/TOPSPIN2.1_6/exp/stan/nmr/lists/pp/user/presat.incl" 1
+ ;$COMMENT=presaturation loops
+;$CLASS=Solids INCL
+;$DIM=
+;$TYPE=presaturation
+;$SUBTYPE=
+;$OWNER=Trebosc
+
+;Presat include file ***************************************
+;d20 : delai between Presat pulses (p20)
+;pl20 : power of Presat pulses (p20)
+;l20 : number of Presat pulses (p20)
+;p20 : Presat pulses
+;ph20 : phase of Presat pulses (p20)
+; second presat parameters
+;d19 : delai between Presat2 pulses (p21)
+;pl19 : power of Presat2 pulses (p19)
+;l19 : number of Presat2 pulses (p19)
+;p19 : Presat2 pulses
+;ph19 : phase of Presat2 pulses (p19)
+
+
+
+
+
+
+
+
+
+
+
+;***********************************************************
+ 
+# 27 "C:/Bruker/TOPSPIN2.1_6/exp/stan/nmr/lists/pp/user/cp.pp" 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 1 "mc_line 43 file C:/Bruker/TOPSPIN2.1_6/exp/stan/nmr/lists/pp/user/cp.pp expanding definition part of mc command before ze"
+define delay MCWRK
+define delay MCREST
+"MCWRK = 0.333333*1m"
+"MCREST = 10m - 1m"
+    dccorr
+# 43 "C:/Bruker/TOPSPIN2.1_6/exp/stan/nmr/lists/pp/user/cp.pp"
+1 ze
+# 1 "mc_line 43 file C:/Bruker/TOPSPIN2.1_6/exp/stan/nmr/lists/pp/user/cp.pp expanding definition of mc command after ze"
+# 44 "C:/Bruker/TOPSPIN2.1_6/exp/stan/nmr/lists/pp/user/cp.pp"
+# 1 "mc_line 44 file C:/Bruker/TOPSPIN2.1_6/exp/stan/nmr/lists/pp/user/cp.pp expanding start label for mc command"
+2 MCWRK  * 2 do:f2
+LBLF0, MCWRK 
+  MCREST
+# 45 "C:/Bruker/TOPSPIN2.1_6/exp/stan/nmr/lists/pp/user/cp.pp"
+
+
+
+d1 do:f2
+# 1 "C:/Bruker/TOPSPIN2.1_6/exp/stan/nmr/lists/pp/user/p15_prot.incl" 1
+;p15_prot.incl
+
+; Test the rf on-time and duty cycle
+;protect against too long contact time
+;Test the rf on-time and duty cycle 
+;$COMMENT=protect against too long contact time
+;$CLASS=Solids INCL
+;$OWNER=nmrsu
+1m
+if "p15<10.1m" goto Passp15
+print "contact time exceeds 10msec limit!"
+goto HaltAcqu
+Passp15, 1m
+
+
+
+# 49 "C:/Bruker/TOPSPIN2.1_6/exp/stan/nmr/lists/pp/user/cp.pp" 2
+
+			;make sure p15 does not exceed 10 msec	
+			;let supervisor change this pulseprogram if 
+			;more is needed
+
+			;disable protection file for long acquisition change decoupling power !!! or you risk probe damage
+			;if you set the label lacq (ZGOPTNS -Dlacq), the protection is disabled
+
+# 1 "C:/Bruker/TOPSPIN2.1_6/exp/stan/nmr/lists/pp/user/aq_prot.incl" 1
+;aq_prot.incl
+; Test the rf on-time and duty cycle
+;protect against too long acquisition time
+;$COMMENT=protect against too long acquisition time
+;$CLASS=Solids INCL
+;$OWNER=nmrsu
+1m
+if "aq<50.1m" goto Passaq
+print "acquisition time exceeds 50m limit!"
+goto HaltAcqu
+Passaq, 1m
+
+
+
+# 57 "C:/Bruker/TOPSPIN2.1_6/exp/stan/nmr/lists/pp/user/cp.pp" 2
+
+			;allows max. 50 msec acquisition time, supervisor
+			;may change  to max. 1s at less than 5 % duty cycle
+			;and reduced decoupling field
+
+
+
+
+
+;90 on H
+(p3 pl3 ph1):f2 
+
+
+
+;cp H (f2) to X (f1)
+
+;jesli zdefiniowane -DRamp to CP z Shape (1,Tang) z F2
+
+(p15 pl1 ph2):f1 (p15:sp0 ph10):f2 
+
+;inaczej bez Shape
+
+
+
+
+
+1u cpds2:f2 ; decoupling 
+  go=2 ph31 ;akwizycja
+# 1 "mc_line 85 file C:/Bruker/TOPSPIN2.1_6/exp/stan/nmr/lists/pp/user/cp.pp expanding mc command in line"
+  MCWRK do:f2 wr #0
+  MCWRK zd 
+  lo to LBLF0 times td0
+
+  MCWRK
+# 86 "C:/Bruker/TOPSPIN2.1_6/exp/stan/nmr/lists/pp/user/cp.pp"
+HaltAcqu, 1m
+exit
+
+ph1=1 3
+ph2=0 0 2 2 1 1 3 3 
+ph10=0
+ph31=0 2 2 0 1 3 3 1
+
+
+
+
+
+
