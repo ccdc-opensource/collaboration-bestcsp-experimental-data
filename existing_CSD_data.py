@@ -1,7 +1,6 @@
 import ccdc
 import sys
 import os
-import numpy as np
 
 entries = ccdc.io.EntryReader('CSD')
 family = sys.argv[1]
