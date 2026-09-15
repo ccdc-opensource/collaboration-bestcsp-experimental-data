@@ -3,15 +3,15 @@ import sys
 import os
 
 entries = ccdc.io.EntryReader('CSD')
+MAX_REFCODE_SUFFIX = 100
 
 def retrieve_crystal_data(family):
     entries = ccdc.io.EntryReader('CSD')
-    polymorphs = []
     volumes_by_polymorph = {}
     temperature_by_polymorph = {}
     Refcode_by_polymorph = {}
     dois_by_polymorph = {}
-    for i in range(99):
+    for i in range(MAX_REFCODE_SUFFIX):
         if i == 0:
             num = ""
         else:
