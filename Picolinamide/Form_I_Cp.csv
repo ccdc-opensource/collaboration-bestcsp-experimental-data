@@ -1,0 +1,44 @@
+﻿Identifier,Property,Value (J/molK),Std,N,Name,Reference,Comment
+1,Cp @ 10K,2.0193,,1,Daria Szewczyk,This Work,m= 6.74 mg
+2,Cp @ 20K,9.8887,,1,Daria Szewczyk,This Work,m= 6.74 mg
+3,Cp @ 30K,19.9969,,1,Daria Szewczyk,This Work,m= 6.74 mg
+4,Cp @ 40K,29.5886,,1,Daria Szewczyk,This Work,m= 6.74 mg
+5,Cp @ 50K,37.5232,,1,Daria Szewczyk,This Work,m= 6.74 mg
+6,Cp @ 60K,44.4001,,1,Daria Szewczyk,This Work,m= 6.74 mg
+7,Cp @ 70K,50.2837,,1,Daria Szewczyk,This Work,m= 6.74 mg
+8,Cp @ 80K,55.5343,,1,Daria Szewczyk,This Work,m= 6.74 mg
+9,Cp @ 90K,60.5506,,1,Daria Szewczyk,This Work,m= 6.74 mg
+10,Cp @ 100K,64.6175,,1,Daria Szewczyk,This Work,m= 6.74 mg
+11,Cp @ 110K,68.3351,,1,Daria Szewczyk,This Work,m= 6.74 mg
+12,Cp @ 120K,72.1365,,1,Daria Szewczyk,This Work,m= 6.74 mg
+13,Cp @ 130K,76.0277,,1,Daria Szewczyk,This Work,m= 6.74 mg
+14,Cp @ 140K,79.8726,,1,Daria Szewczyk,This Work,m= 6.74 mg
+15,Cp @ 150K,83.8154,,1,Daria Szewczyk,This Work,m= 6.74 mg
+16,Cp @ 160K,87.7354,,1,Daria Szewczyk,This Work,m= 6.74 mg
+17,Cp @ 170K,91.7387,,1,Daria Szewczyk,This Work,m= 6.74 mg
+18,Cp @ 180K,95.5559,,1,Daria Szewczyk,This Work,m= 6.74 mg
+19,Cp @ 190K,99.5617,,1,Daria Szewczyk,This Work,m= 6.74 mg
+20,Cp @ 200K,103.7765,,1,Daria Szewczyk,This Work,m= 6.74 mg
+21,Cp @ 240K,121.8,,1,Vojtěch,This Work,Microcalvet
+22,Cp @ 245K,123.9,,1,Vojtěch,This Work,Microcalvet
+23,Cp @ 250K,126.1,,1,Vojtěch,This Work,Microcalvet
+24,Cp @ 255K,128.4,,1,Vojtěch,This Work,Microcalvet
+25,Cp @ 260K,130.5,,1,Vojtěch,This Work,Microcalvet
+26,Cp @ 265K,132.8,,1,Vojtěch,This Work,Microcalvet
+27,Cp @ 270K,135.1,,1,Vojtěch,This Work,Microcalvet
+28,Cp @ 275K,137.4,,1,Vojtěch,This Work,Microcalvet
+29,Cp @ 280K,139.6,,1,Vojtěch,This Work,Microcalvet
+30,Cp @ 285K,141.9,,1,Vojtěch,This Work,Microcalvet
+31,Cp @ 290K,144.2,,1,Vojtěch,This Work,Microcalvet
+32,Cp @ 295K,146.5,,1,Vojtěch,This Work,Microcalvet
+33,Cp @ 300K,148.7,,1,Vojtěch,This Work,Microcalvet
+34,Cp @ 305K,151.0,,1,Vojtěch,This Work,Microcalvet
+35,Cp @ 310K,153.2,,1,Vojtěch,This Work,Microcalvet
+36,Cp @ 315K,155.5,,1,Vojtěch,This Work,Microcalvet
+37,Cp @ 320K,157.7,,1,Vojtěch,This Work,Microcalvet
+38,Cp @ 325K,159.9,,1,Vojtěch,This Work,Microcalvet
+39,Cp @ 330K,162.2,,1,Vojtěch,This Work,Microcalvet
+40,Cp @ 335K,164.4,,1,Vojtěch,This Work,Microcalvet
+41,Cp @ 340K,166.6,,1,Vojtěch,This Work,Microcalvet
+42,Cp @ 345K,168.8,,1,Vojtěch,This Work,Microcalvet
+43,Cp @ 350K,171.1,,1,Vojtěch,This Work,Microcalvet

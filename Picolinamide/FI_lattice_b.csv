@@ -1,0 +1,6 @@
+﻿Identifier,Property,Value (Angstrom),Std,N,Name,Reference,Comment
+1,Lattice param b @293K,11.3075,0.0005,,,http://dx.doi.org/10.1039/c2ce26244d,
+2,Lattice param b @150K,11.2901,0.0005,,,http://dx.doi.org/10.1039/c2ce26244d,
+3,Lattice param b @100K,11.163,0.002,,,http://dx.doi.org/10.1039/C4CE00265B,
+4,Lattice param b @150K,11.2876,0.0002,1,Tinnemans,This work, 	
+5,Lattice param b @296K,11.3355,0.0003,1,Baptista,This work, 
