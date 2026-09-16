@@ -1,0 +1,73 @@
+import ccdc
+import sys
+import os
+
+entries = ccdc.io.EntryReader('CSD')
+MAX_REFCODE_SUFFIX = 100
+
+
+def retrieve_crystal_data(family):
+    entries = ccdc.io.EntryReader('CSD')
+    volumes_by_polymorph = {}
+    temperature_by_polymorph = {}
+    Refcode_by_polymorph = {}
+    dois_by_polymorph = {}
+    for i in range(MAX_REFCODE_SUFFIX):
+        if i == 0:
+            num = ""
+        else:
+            num = "%02i" % i
+        full_name = f"{family}{num}"
+        print(full_name)
+        try:
+            entry = entries.entry(full_name)
+        except Exception as e:
+            print(f"Could not retrieve crystal for {full_name}: {e}")
+            continue
+        polymorph = entry.polymorph if entry.polymorph else "Unknown"
+        polymorph = polymorph.strip("polymorph")
+        volume = entry.crystal.cell_volume
+        if volume is not None:
+            if polymorph not in volumes_by_polymorph:
+                volumes_by_polymorph[polymorph] = []
+            volumes_by_polymorph[polymorph].append(volume)
+        temperature = entry.temperature if entry.temperature else "Unknown"
+        if temperature is not None:
+            if polymorph not in temperature_by_polymorph:
+                temperature_by_polymorph[polymorph] = []
+            temperature_by_polymorph[polymorph].append(temperature)
+        refcode = entry.identifier
+        if polymorph not in Refcode_by_polymorph:
+            Refcode_by_polymorph[polymorph] = []
+        Refcode_by_polymorph[polymorph].append(refcode)
+        doi = entry.publication.doi if entry.publication and entry.publication.doi else refcode
+        if polymorph not in dois_by_polymorph:
+            dois_by_polymorph[polymorph] = []
+        dois_by_polymorph[polymorph].append(doi)
+    return volumes_by_polymorph, temperature_by_polymorph, Refcode_by_polymorph, dois_by_polymorph
+
+
+def write_volume_csv(common_name, volumes_by_polymorph, temperature_by_polymorph, Refcode_by_polymorph, dois_by_polymorph):
+    for polymorph, volumes in volumes_by_polymorph.items():
+        output_file = open(os.path.join(common_name, f"{polymorph.strip(' ')}_volume.csv"), 'w')
+        output_file.write("%s\n" % (Refcode_by_polymorph[polymorph][0]))  # should be best R factor refcode rather than first really
+        output_file.write("Identifier, Property, Value (Angstrom^3), Std, N, Name, Reference, Comment\n")
+        for i, volume in enumerate(volumes):
+            output_file.write(
+                f"{i+1}, Unit Cell Volume @  {temperature_by_polymorph[polymorph][i]}, {volume:.2f}, , 1, ,{dois_by_polymorph[polymorph][i]}, generated automatically; check temperature etc.\n")
+
+
+def main():
+    family = sys.argv[1]
+    common_name = sys.argv[2]
+    volumes_by_polymorph, temperature_by_polymorph, Refcode_by_polymorph, dois_by_polymorph = retrieve_crystal_data(family)
+    if os.path.exists(common_name):
+        print(f"folder {common_name} exists.")
+    else:
+        print(f"making folder {common_name}")
+        os.mkdir(common_name)
+    write_volume_csv(common_name, volumes_by_polymorph, temperature_by_polymorph, Refcode_by_polymorph, dois_by_polymorph)
+
+
+if __name__ == "__main__":
+    main()
