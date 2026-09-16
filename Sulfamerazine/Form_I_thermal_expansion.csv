@@ -1,0 +1,33 @@
+SLFNMA02,,,,,,,
+Identifier,Property,Value (1/K),Std, N, Name, Reference,Comment
+1, Volumetric thermal expansion coefficient @160K, 0.000119, 0.000016, Pallipurath, 10.1021/acs.molpharmaceut.5b00504, SCXRD 
+2, Volumetric thermal expansion coefficient @170K, 0.000119, 0.000016, Pallipurath, 10.1021/acs.molpharmaceut.5b00504, SCXRD
+3, Volumetric thermal expansion coefficient @180K, 0.00012, 0.000016, Pallipurath, 10.1021/acs.molpharmaceut.5b00504, SCXRD
+4, Volumetric thermal expansion coefficient @190K, 0.00012, 0.000016, Pallipurath, 10.1021/acs.molpharmaceut.5b00504, SCXRD
+5, Volumetric thermal expansion coefficient @200K, 0.000121, 0.000016, Pallipurath, 10.1021/acs.molpharmaceut.5b00504, SCXRD
+6, Volumetric thermal expansion coefficient @210K, 0.000122, 0.000016, Pallipurath, 10.1021/acs.molpharmaceut.5b00504, SCXRD
+7, Volumetric thermal expansion coefficient @220K, 0.000122, 0.000016, Pallipurath, 10.1021/acs.molpharmaceut.5b00504, SCXRD
+8, Volumetric thermal expansion coefficient @230K, 0.000123, 0.000016, Pallipurath, 10.1021/acs.molpharmaceut.5b00504, SCXRD
+9, Volumetric thermal expansion coefficient @240K, 0.000124, 0.000016, Pallipurath, 10.1021/acs.molpharmaceut.5b00504, SCXRD
+10, Volumetric thermal expansion coefficient @250K, 0.000124, 0.000016, Pallipurath, 10.1021/acs.molpharmaceut.5b00504, SCXRD
+11, Volumetric thermal expansion coefficient @260K, 0.000125, 0.000016, Pallipurath, 10.1021/acs.molpharmaceut.5b00504, SCXRD
+12, Volumetric thermal expansion coefficient @270K, 0.000126, 0.000016, Pallipurath, 10.1021/acs.molpharmaceut.5b00504, SCXRD
+13, Volumetric thermal expansion coefficient @280K, 0.000126, 0.000016, Pallipurath, 10.1021/acs.molpharmaceut.5b00504, SCXRD
+14, Volumetric thermal expansion coefficient @290K, 0.000127, 0.000016, Pallipurath, 10.1021/acs.molpharmaceut.5b00504, SCXRD
+15, Volumetric thermal expansion coefficient @310K, 0.000103, 0.000010, , , PXRD
+16, Volumetric thermal expansion coefficient @320K, 0.000107, 0.000009, , , PXRD
+17, Volumetric thermal expansion coefficient @330K, 0.00011, 0.000008, , , PXRD
+18, Volumetric thermal expansion coefficient @340K, 0.000114, 0.000007, , , PXRD
+19, Volumetric thermal expansion coefficient @350K, 0.000118, 0.000005, , , PXRD
+20, Volumetric thermal expansion coefficient @360K, 0.000122, 0.000005, , , PXRD
+21, Volumetric thermal expansion coefficient @370K, 0.000126, 0.000004, , , PXRD
+22, Volumetric thermal expansion coefficient @380K, 0.000130, 0.000003, , , PXRD
+23, Volumetric thermal expansion coefficient @390K, 0.000134, 0.000003, , , PXRD
+24, Volumetric thermal expansion coefficient @400K, 0.000137, 0.000004, , , PXRD
+25, Volumetric thermal expansion coefficient @410K, 0.000141, 0.000004, , , PXRD
+26, Volumetric thermal expansion coefficient @420K, 0.000145, 0.000005, , , PXRD
+27, Volumetric thermal expansion coefficient @430K, 0.000149, 0.000006, , , PXRD
+28, Volumetric thermal expansion coefficient @440K, 0.000152, 0.000007, , , PXRD
+29, Volumetric thermal expansion coefficient @450K, 0.000156, 0.000008, , , PXRD
+30, Volumetric thermal expansion coefficient @460K, 0.000160, 0.000009, , , PXRD
+31, Volumetric thermal expansion coefficient @470K, 0.000164, 0.000011, , , PXRD 
