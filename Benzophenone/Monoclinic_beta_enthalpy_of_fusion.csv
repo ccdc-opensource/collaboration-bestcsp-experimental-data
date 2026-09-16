@@ -8,3 +8,23 @@ Identifier, Property, Value (kJ/mol),		Std, 	N,   Name, Reference    ,	         
 6,         Enthalpy of fusion,14.1,        , ,  Dudek,       M_Dudek_2024.1,
 7,         Enthalpy of fusion,13.8,        , ,  Neumann, https://doi.org/10.1515/zpch-1932-16103 ,
 8,         Enthalpy of fusion,14.5,0.15, ,  Stejfa,  https://doi.org/10.1021/acs.jced.6b00523,
+9,         Enthalpy of fusion,16.5,        , ,  Vlieg,       , refused to calibrate according to protocol
+10,        Enthalpy of fusion,16.4,        , ,  Vlieg,       , refused to calibrate according to protocol
+11,        Enthalpy of fusion,15.2,        , ,  van Hecke,       ,
+12,        Enthalpy of fusion,15.2,        , ,  van Hecke,       ,
+13,        Enthalpy of fusion,13.3,        , ,  Rietveld,       ,
+14,        Enthalpy of fusion,13.3,        , ,  Rietveld,       ,
+15,        Enthalpy of fusion,13.6,        , ,  Rietveld,       ,
+16,        Enthalpy of fusion,13.7,        , ,  Rietveld,       ,
+17,        Enthalpy of fusion,13.4,        , ,  Rietveld,       ,
+18,        Enthalpy of fusion,12.0,        , ,  Rietveld,       ,
+19,        Enthalpy of fusion,14.5,        , ,  Freitas,       , 10K/min
+20,        Enthalpy of fusion,14.5,        , ,  Freitas,       , 10K/min
+21,        Enthalpy of fusion,14.5,        , ,  Freitas,       , 10K/min
+22,        Enthalpy of fusion,14.7,        , ,  Freitas,       , 5K/min
+23,        Enthalpy of fusion,14.7,        , ,  Freitas,       , 5K/min
+24,        Enthalpy of fusion,14.7,        , ,  Freitas,       , 5K/min
+25,        Enthalpy of fusion,14.5,        , ,  Freitas,       , 1K/min
+26,        Enthalpy of fusion,14.6,        , ,  Freitas,       , 1K/min
+27,        Enthalpy of fusion,14.6,        , ,  Freitas,       , 1K/min
+28,        Enthalpy of fusion,14.3,        , ,  Romanini,       ,
