@@ -1,0 +1,5 @@
+EJEQAL01
+Identifier, Property, Value (Angstrom^3), Std, N, Name, Reference, Comment
+1, Unit Cell Volume @  at 150 K, 2291.82, , 1, ,10.1007/s11224-009-9579-9, generated automatically; check temperature etc.
+2, Unit Cell Volume @  172 K, 2260.75, , 1, ,10.1021/acs.molpharmaceut.8b00818, generated automatically; check temperature etc.
+3, Unit Cell Volume @  200 K, 2271.24, , 1, ,10.1021/acs.molpharmaceut.8b00818, generated automatically; check temperature etc.

@@ -1,0 +1,5 @@
+DPYRAM06,,,,,,,
+Identifier, Property, Value (Angstrom^3), Std, N, Name, Reference, Comment
+1, Unit Cell Volume @  Unknown,1741.29, ,1, ,10.1107/S0567740873005236, generated automatically; check temperature etc.
+2, Unit Cell Volume @  at 294 K,1758.16, ,1, ,DPYRAM04, generated automatically; check temperature etc.
+3, Unit Cell Volume @  296 K,1743.58, ,1, ,10.1016/j.molstruc.2016.11.078, generated automatically; check temperature etc.
