@@ -1,0 +1,27 @@
+##TITLE= Audit trail, TOPSPIN		Version 2.1
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ C:/u/data/paluch/nmr/metazetamol_PTSA/1/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2024-12-19 20:59:59.748 +0100>,<nmr>,<A72E3985E791420>,<go>,<TOPSPIN 2.1>,
+      <created by zg
+	started at 2024-12-19 11:16:32.107 +0100,
+	POWCHK disabled, PULCHK disabled,
+       configuration hash MD5:
+       E0 80 CF 59 BA 21 22 36 92 7F 0F A1 1F 71 FB B2
+       data hash MD5: 4K
+       70 90 DA C0 8E A7 95 57 49 60 D8 4E FF 8B 3A 5B>)
+(   2,<2024-12-20 10:29:55.748 +0100>,<nmr>,<A72E3985E791420>,<proc1d>,<TOPSPIN 2.1>,
+      <Start of raw data processing
+       efp LB = 10 FT_mod = 6 PKNL = 1 PHC0 = -69.84589 PHC1 = -144.6 SI = 16K 
+       data hash MD5: 16K
+       94 C5 6A 9B 87 00 B2 E0 10 D6 CA 34 D3 D0 48 1E>)
+(   3,<2024-12-20 10:29:57.779 +0100>,<nmr>,<A72E3985E791420>,<proc1d>,<TOPSPIN 2.1>,
+      <apks 
+       data hash MD5: 16K
+       7C 95 28 79 B2 28 58 8E 57 F1 6F 42 86 E3 DE 0D>)
+##END=
+
+$$ hash MD5
+$$ 78 98 06 63 8B D9 91 91 0C 55 FD BD 65 39 81 EB

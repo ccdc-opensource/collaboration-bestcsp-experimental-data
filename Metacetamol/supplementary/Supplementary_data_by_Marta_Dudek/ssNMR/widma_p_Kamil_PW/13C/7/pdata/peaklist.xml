@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PeakList>
+  <PeakList1D>
+    <PeakList1DHeader creator="Marta" date="2024-09-24T13:49:39.144+02:00" expNo="7" name="COST" owner="" procNo="1" source="C:\u\Slawek_MAS">
+      <PeakPickDetails>F1=323.395ppm, F2=-120.249ppm, MI=20.00cm, MAXI=10000.00cm, PC=4.000
+      </PeakPickDetails>
+    </PeakList1DHeader>
+    <Peak1D F1="171.4445" intensity="62.87" type="0"/>
+    <Peak1D F1="155.8966" intensity="92.41" type="0"/>
+    <Peak1D F1="139.4252" intensity="59.89" type="0"/>
+    <Peak1D F1="129.2946" intensity="77.94" type="0"/>
+    <Peak1D F1="110.0653" intensity="90.82" type="0"/>
+    <Peak1D F1="108.8862" intensity="84.88" type="0"/>
+    <Peak1D F1="107.4183" intensity="88.23" type="0"/>
+    <Peak1D F1="23.8168" intensity="100.00" type="0"/>
+  </PeakList1D>
+</PeakList>
