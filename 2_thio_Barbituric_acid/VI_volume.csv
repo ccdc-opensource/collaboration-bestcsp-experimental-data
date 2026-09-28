@@ -1,0 +1,4 @@
+THBARB03
+Identifier, Property, Value (Angstrom^3), Std, N, Name, Reference, Comment
+1, Unit Cell Volume @  Unknown, 1155.68, , 1, ,THBARB, generated automatically; check temperature etc.
+2, Unit Cell Volume @  at 293 K, 1160.49, , 1, ,10.1002/chem.200902485, generated automatically; check temperature etc.
