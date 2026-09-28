@@ -4,7 +4,7 @@ import os
 
 entries = ccdc.io.EntryReader('CSD')
 MAX_REFCODE_SUFFIX = 100
-
+UNKNOWN = "Unknown"
 
 def retrieve_crystal_data(family):
     entries = ccdc.io.EntryReader('CSD')
@@ -22,16 +22,18 @@ def retrieve_crystal_data(family):
             entry = entries.entry(full_name)
         except Exception as e:
             continue
-        polymorph = entry.polymorph if entry.polymorph else "Unknown"
-        polymorph = polymorph.strip()
-        polymorph = polymorph.replace("polymorph", "")
-        polymorph = polymorph.replace("/", "")
+        polymorph = UNKNOWN
+        if entry.polymorph:
+            polymorph = entry.polymorph
+            polymorph = polymorph.strip()
+            polymorph = polymorph.replace("polymorph", "")
+            polymorph = polymorph.replace("/", "")
         volume = entry.crystal.cell_volume
         if volume is not None:
             if polymorph not in volumes_by_polymorph:
                 volumes_by_polymorph[polymorph] = []
             volumes_by_polymorph[polymorph].append(volume)
-        temperature = entry.temperature if entry.temperature else "Unknown"
+        temperature = entry.temperature if entry.temperature else UNKNOWN
         if temperature is not None:
             if polymorph not in temperature_by_polymorph:
                 temperature_by_polymorph[polymorph] = []
@@ -40,7 +42,7 @@ def retrieve_crystal_data(family):
         if polymorph not in dois_by_polymorph:
             dois_by_polymorph[polymorph] = []
         dois_by_polymorph[polymorph].append(doi)
-        r_factor = entry.r_factor if entry.r_factor else "Unknown"
+        r_factor = entry.r_factor if entry.r_factor else UNKNOWN
         if polymorph not in r_factor_by_polymorph:
             r_factor_by_polymorph[polymorph] = []
         r_factor_by_polymorph[polymorph].append([full_name, r_factor])
@@ -53,10 +55,11 @@ def write_volume_csv(common_name, volumes_by_polymorph, temperature_by_polymorph
         lowest_r_factor_rep = r_factor_by_polymorph[polymorph][0][0]
         min_r_factor = 100.0
         for full_name, r in r_factor_by_polymorph[polymorph]:
-            if r != 'Unknown':
-                if float(r) < min_r_factor:
-                    min_r_factor = float(r)
-                    lowest_r_factor_rep = full_name
+            if r == UNKNOWN:
+                continue
+            if float(r) < min_r_factor:
+                min_r_factor = float(r)
+                lowest_r_factor_rep = full_name
         print(f'{polymorph} {lowest_r_factor_rep} {min_r_factor}')
         output_file.write("%s\n" % (lowest_r_factor_rep))
         output_file.write("Identifier, Property, Value (Angstrom^3), Std, N, Name, Reference, Comment\n")
