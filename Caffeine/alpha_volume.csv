@@ -1,0 +1,5 @@
+NIWFEE02
+Identifier, Property, Value (Angstrom^3), Std, N, Name, Reference, Comment
+1, Unit Cell Volume @  Unknown, 1344.95, , 1, ,10.1039/a702041d, generated automatically; check temperature etc.
+2, Unit Cell Volume @  at 278 K, 1332.88, , 1, ,10.1107/S010876810500546X, generated automatically; check temperature etc.
+3, Unit Cell Volume @  at 125 K, 1288.62, , 1, ,10.1021/cg070291o, generated automatically; check temperature etc.
