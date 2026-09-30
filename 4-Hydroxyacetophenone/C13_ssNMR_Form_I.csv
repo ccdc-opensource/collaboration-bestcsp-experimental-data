@@ -1,0 +1,3 @@
+HACTPH13,,,,,,,,
+Identifier, Property              , Value (kJ/mol),"		 Std"," 	N",    Name,    Reference    ,"	              Comment",
+1, CH3 shift @ 298K, 24.74, 0.15, 5, Martin Dracinsky, http://dx.doi.org/10.2139/ssrn.6816156, Taken from the results using the standardized procedure performed by one operator

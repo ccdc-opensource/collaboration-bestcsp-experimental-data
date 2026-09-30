@@ -1,0 +1,3 @@
+SLFNMA02
+Identifier,Property,Value (ppm),Std, N, Name, Reference,Comment
+10, C6' @ 298K, 158.36, 0.11, 5, Martin Dracinsky, http://dx.doi.org/10.2139/ssrn.6816156, Mean across 300/400/600/850/1000 MHz

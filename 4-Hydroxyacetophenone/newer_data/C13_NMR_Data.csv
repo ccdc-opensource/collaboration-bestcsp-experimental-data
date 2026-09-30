@@ -1,0 +1,8 @@
+HACTPH27,,,,,,,,,,
+Identifier, Property              , Value (ppm),"		 Std"," 	N",    Name,    Reference    ,"	              Comment",,,
+1,CH3 shift,24.74,0.15,5,Dracinsky,Dracinksy_2025_in_prep,"measured on five ssNMR spectrometers at 300, 400, 500, 660, 850, and 1000 MHz",,,
+2,C3/C5 shift,114.32,0.14,5,Dracinsky,Dracinksy_2025_in_prep,"measured on five ssNMR spectrometers at 300, 400, 500, 660, 850, and 1000 MHz",,,
+3,C3/C5 shift,116.3,0.14,5,Dracinsky,Dracinksy_2025_in_prep,"measured on five ssNMR spectrometers at 300, 400, 500, 660, 850, and 1000 MHz",,,
+4,C1 shift,127.81,0.14,5,Dracinsky,Dracinksy_2025_in_prep,"measured on five ssNMR spectrometers at 300, 400, 500, 660, 850, and 1000 MHz",,,
+5,C2/C6 shift,130.59,0.16,5,Dracinsky,Dracinksy_2025_in_prep,"measured on five ssNMR spectrometers at 300, 400, 500, 660, 850, and 1000 MHz",,,
+6,C2/C6 shift,133.1,0.14,5,Dracinsky,Dracinksy_2025_in_prep,"measured on five ssNMR spectrometers at 300, 400, 500, 660, 850, and 1000 MHz",,,
