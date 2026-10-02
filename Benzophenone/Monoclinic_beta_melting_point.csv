@@ -9,3 +9,21 @@ Identifier,	Property,		     Value (K),		Std, 	N,   Name,            Reference   
 7, Melting point, 299.25,        , 1, Neumann,   https://doi.org/10.1515/zpch-1932-16103 ,
 8, Melting point, 298.3, 0.15, , Stejfa,  https://doi.org/10.1021/acs.jced.6b00523 ,
 9, Melting point, 298.7, 0.8, , Rietveld,  https://doi.org/10.1038/s41598-023-38985-y ,
+12, Melting point,297.71,        , ,  van Hecke,       ,
+13, Melting point,297.93,        , ,  van Hecke,       ,
+14, Melting point,297.7,        , ,  Rietveld,       ,
+15, Melting point,297.7,        , ,  Rietveld,       ,
+16, Melting point,297.7,        , ,  Rietveld,       ,
+17, Melting point,297.7,        , ,  Rietveld,       ,
+18, Melting point,297.7,        , ,  Rietveld,       ,
+19, Melting point,297.8,        , ,  Rietveld,       ,
+20, Melting point,298.29,        , ,  Freitas,       , 10K/min
+21, Melting point,298.21,        , ,  Freitas,       , 10K/min
+22, Melting point,297.79,        , ,  Freitas,       , 10K/min
+23, Melting point,298.32,        , ,  Freitas,       , 5K/min
+24, Melting point,298.33,        , ,  Freitas,       , 5K/min
+25, Melting point,298.23,        , ,  Freitas,       , 5K/min
+26, Melting point,298.45,        , ,  Freitas,       , 1K/min
+27, Melting point,298.4,        , ,  Freitas,       , 1K/min
+28, Melting point,298.53,        , ,  Freitas,       , 1K/min
+29, Melting point,297.95,        , ,  Romanini,       ,
