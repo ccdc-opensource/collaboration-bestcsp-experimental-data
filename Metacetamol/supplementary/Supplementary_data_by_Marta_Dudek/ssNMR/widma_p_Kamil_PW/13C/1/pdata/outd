@@ -1,0 +1,17 @@
+##TITLE= Parameter file, TOPSPIN		Version 2.1
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ 2024-12-19 11:13:10.201 +0100  nmr@A72E3985E791420
+$$ C:\u/data/paluch/nmr/metazetamol_PTSA/1/pdata/1/outd
+$$ process C:\Bruker\TOPSPIN2.1_6\prog\mod\edparproc.exe
+##$CURPLOT= <HP LaserJet 1100 (MS)>
+##$CURPRIN= <$HP LaserJet 1100 (MS)>
+##$DFORMAT= <normdp>
+##$LAYOUT= <+/1d+1d+1d-mj.xwp>
+##$LFORMAT= <normlp>
+##$PFORMAT= <normpl>
+##$SURQMSG= 1
+##END=

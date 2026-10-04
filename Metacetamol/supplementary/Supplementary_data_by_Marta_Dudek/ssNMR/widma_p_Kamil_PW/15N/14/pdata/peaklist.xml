@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PeakList>
+  <PeakList1D>
+    <PeakList1DHeader creator="nmrsu" date="2024-12-19T11:48:50.203+01:00" expNo="14" name="metacetamol" owner="" procNo="1" source="C:\NMR_data\Marta_MAS4mm_BB_CPMAS">
+      <PeakPickDetails>F1=326.067ppm, F2=-85.031ppm, MI=5.80cm, MAXI=10000.00cm, PC=1.000
+      </PeakPickDetails>
+    </PeakList1DHeader>
+    <Peak1D F1="143.1797" intensity="9.357727e+000" type="0"/>
+    <Peak1D F1="96.1792" intensity="1.500000e+001" type="0"/>
+  </PeakList1D>
+</PeakList>

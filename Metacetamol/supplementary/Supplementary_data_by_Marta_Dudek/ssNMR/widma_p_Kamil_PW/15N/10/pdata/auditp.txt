@@ -1,0 +1,24 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.1
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ C:\NMR_data\Marta_MAS4mm_BB_CPMAS/metacetamol/10/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2024-12-18 13:52:01.498 +0100>,<nmrsu>,<CZC10666P2>,<go>,<TOPSPIN 3.1>,
+      <created by zg
+	started at 2024-12-18 12:45:15.879 +0100,
+	POWCHK enabled, PULCHK disabled,
+       terminated by command 'halt'
+       configuration hash MD5:
+       30 B4 9D 7A A8 9B 44 24 F5 5C 39 14 A9 7E D8 0F
+       data hash MD5: 2K
+       FE 2C 49 CD BA C8 27 80 C6 A6 66 04 B0 2F F9 94>)
+(   2,<2024-12-18 13:52:15.977 +0100>,<nmrsu>,<CZC10666P2>,<proc1d>,<TOPSPIN 3.1>,
+      <Start of raw data processing
+       efp LB = 40 FT_mod = 6 PKNL = 1 PHC0 = -40.087 PHC1 = 0 SI = 8K 
+       data hash MD5: 8K
+       E5 64 C6 50 71 22 FE 94 B7 79 D8 BC 62 14 FA 1E>)
+##END=
+
+$$ hash MD5
+$$ 5F 20 CC 9D 4E 1D 2B 5C 3E E8 B7 3B CA 5B D2 98

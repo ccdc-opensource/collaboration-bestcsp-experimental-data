@@ -1,0 +1,4 @@
+| Identifier | Property                              | Value (kJ/mol) | Std | N | Name         | Reference                                 | Comment                                  |
+|------------|---------------------------------------|----------------|-----|---|--------------|----------------------------------------   |------------------------------------------|
+| 1          | Enthalpy of Sublimation @ 298 K       | 127.7          | 2.4 |   | Noor         | W_Noor_2024                               | ΔsubH° = 127.7 ± 2.4 kJ mol⁻¹            |
+| 2          | Enthalpy of Sublimation               | 111.62         |     |   | Perlovich_08 | https://doi.org/10.1208/s12249-008-9033-0 | Reported value                           |
