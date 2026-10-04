@@ -5,3 +5,7 @@ Identifier,Property,Value (K),Std,N,Name,Reference,Comment
 3,Melting point,379.6,,3,Zhabina,https://doi.org/10.1016/j.jct.2016.08.002,DSC 10 K min-1
 4,Melting point,379.5,,1,Moreno-Leon,https://doi.org/10.1016/j.molliq.2022.120365,DSC 10 K min-1
 5,Melting point,380.7,,1,Surov,https://doi.org/10.1021/acs.cgd.9b00781,DSC 2 K min-1
+6,Melting point,379.40,0.14,23,Vojtěch,This Work, DSC
+7,Melting point,379.29,0.03,3,Marta Dudek,This work, DSC 10 K min-1
+8,Melting point,378.77,0.20,3,Marta Dudek,This work,DSC 5 K min-1
+9,Melting point,379.26,0.02,3,Marta Dudek,This work,DSC 2 K min-1
