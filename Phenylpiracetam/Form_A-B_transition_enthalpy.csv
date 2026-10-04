@@ -1,3 +1,5 @@
 Phenylpiracetam,,,,,,,
-"Identifier,""	Property"",""		     Value (kJ/mol)"",""		Std"","" 	N"",       Name,""	              Comment"",            Reference "
+Identifier,	Property,		     Value (kJ/mol),		Std, 	N,       Name,	              Comment,            Reference
 1,        Enthalpy of transition, 2.84, 0.03, 3, Stejfa Vojtech, 5 K/min (TA DSC Discovery 2500), Stejfa Vojtech email 12/03/2025
+2, Enthalpy of transition, 2.57, 0.28, , Manuel Minas da Piedade, 0.5 K/min (DSC) , Manuel Minas da Piedade email 02/12/2025
+3, Enthalpy of transition, 2.80, 0.14, , Manuel Minas da Piedade, Solution Calorimetry @298.15 K , Manuel Minas da Piedade email 02/12/2025
