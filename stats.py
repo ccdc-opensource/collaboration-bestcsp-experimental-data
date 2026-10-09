@@ -14,7 +14,7 @@ def write_table_to_disk(table, name):
     newlines = []
     for line in lines:
         if line.split()[0] == 'eff':
-            newlines.append('                         mean       stdev      CI_low      CI_upp      weight')
+            newlines.append('                         mean    model_sd      CI_low      CI_upp      weight')
         elif line.split()[0] == 'fixed':
             continue
         elif 'wls' in line[:19]:
@@ -47,35 +47,52 @@ for filename in files:
     f = open(filename, 'r')
     data = f.readlines()
     f.close()
+    # Keep excluded rows out of every pass, not just the observation count.
+    data = data[:2] + [line for line in data[2:]
+                      if line.strip() and "#" not in line.split(',')[0]]
     ndict = dict()
     best_rep = data[0].split(',')[0]
-    Units = data[1].split(',')[2].split()[-1].strip(')').strip('(')
+    Units = data[1].split(',')[2].split()[-1].strip('()"')
     print(best_rep)
     for line in data[2:]:
         # print([s.strip() for s in line.split(',')])
         try:
             id, prop, value, s, n, author = [s.strip() for s in line.split(',')][:6]
-        except Exception as e:
-            print("Some issue with line: ", line, " Error: ", e)
+        except ValueError as e:
+            raise ValueError(f"{filename}: malformed row: {line.strip()}") from e
         # Find out how many data points there are for each lab...
         if "#" in id:
             continue
+        try:
+            if not author:
+                raise ValueError("Name is required to identify dependent repeats and independent sources")
+            if not np.isfinite(float(value)):
+                raise ValueError("Value must be finite")
+            if n and int(n) < 1:
+                raise ValueError("N must be a positive integer when supplied")
+            if s and (not np.isfinite(float(s)) or float(s) <= 0):
+                raise ValueError("Std must be finite and positive")
+        except ValueError as e:
+            raise ValueError(f"{filename}: row {id}: {e}") from e
         if author not in ndict:
-            if n == '':
-                ndict[author] = 1
-            else:
-                ndict[author] = int(n)
+            ndict[author] = 1
         else:
-            if n == '':
-                ndict[author] += 1
-            else:
-                ndict[author] += int(n)
+            ndict[author] += 1
     combined_names = []
     combined_values = []
     for name in ndict:
+        name_rows = [[s.strip() for s in line.split(',')][:6] for line in data[2:]
+                     if line.split(',')[5].strip() == name]
+        summaries = sum(bool(row[3]) for row in name_rows)
+        if summaries > 1 or (summaries and len(name_rows) > 1):
+            raise ValueError(f"{filename}: {name}: multiple summaries or mixed raw/summary rows; "
+                             "resolve overlap and dependence before combining")
+        if len(name_rows) > 1 and any(row[4] and int(row[4]) > 1 for row in name_rows):
+            raise ValueError(f"{filename}: {name}: multiple reported means without dispersions; "
+                             "resolve overlap and dependence before combining")
         values = []
-        print(name, "has", ndict[name], "data points")
-        if ndict[name] > 3:
+        print(name, "has", ndict[name], "reported rows")
+        if ndict[name] > 1:
             adding = True
             for line in data[2:]:
                 id, prop, value, s, n, author = [s.strip() for s in line.split(',')][:6]
@@ -91,7 +108,7 @@ for filename in files:
                         values.append(float(value))
             if adding:
                 mean_effect = np.append(mean_effect, np.mean(values))
-                var_effect = np.append(var_effect, np.var(np.array(values)))
+                var_effect = np.append(var_effect, np.var(values, ddof=1))
                 idx.append(name)
                 print(name, "OK, data added")
         else:
@@ -109,16 +126,35 @@ for filename in files:
                     else:
                         combined_names.append(name)
                         combined_values.append(float(value))
-    if len(combined_values) > 2:
+    n_lab_estimates = len(idx)
+    n_pooled_labs = len(combined_values)
+    if n_pooled_labs > 1:
         #        idx.append(', '.join(set(combined_names)))
         idx.append("Literature data")
         print("Combining data for", set(combined_names))
         mean_effect = np.append(mean_effect, np.mean(combined_values))
-        var_effect = np.append(var_effect, np.var(combined_values))
+        # Each value here is from a distinct name/lab: variance of their mean.
+        var_effect = np.append(var_effect, np.var(combined_values, ddof=1) / len(combined_values))
+
+    if not np.all(np.isfinite(mean_effect)) or not np.all(np.isfinite(var_effect) & (var_effect > 0)):
+        raise ValueError(f"{filename}: means must be finite and working variances finite and positive")
+
+    # Eligibility policy: at least four effects with estimable uncertainties.
+    # An independent literature pool counts as one effect, not M effects.
+    consensus_eligible = (n_lab_estimates >= 4 or
+                          (n_lab_estimates >= 3 and n_pooled_labs >= 2))
+    skip_reason = ""
+    if not consensus_eligible:
+        skip_reason = (f"{n_lab_estimates} laboratory estimates and {n_pooled_labs} uncharacterized "
+                       "independent laboratory values; require four laboratory estimates, or "
+                       "three plus a pool of at least two additional independent laboratories")
+        print(f"Skipping {filename}: {skip_reason}")
+        continue
 
     print("mean_effect", mean_effect)
     print("var_effect", var_effect)
     print("Calculating consensus for", filename)
+    # Working model: lab repeats use SD**2; independent literature means use s**2/M.
     results = combine_effects(mean_effect, var_effect, method_re="pm", row_names=idx)
     # results.conf_int_samples(nobs=nobs)
     print("Heterogeneity, tau-square: {:.3f}".format(results.tau2), "tau: {:.3f}".format(math.sqrt(results.tau2)))
@@ -135,10 +171,8 @@ for filename in files:
     hw = np.abs(res_df[["ci_low", "ci_upp"]] - res_df[["eff"]].values)
     fig1 = dot_plot(points=res_df["eff"], intervals=hw,
                     lines=res_df.index, line_order=res_df.index, ax=ax)
-    Title = sys.argv[1].strip('\\').strip('/') + " form " + best_rep
-    x_title = prop + " (" + Units + ")"
+    x_title = prop + " [" + Units + "]"
     ax.set_xlabel(x_title)
-    ax.set_title(Title)
     fig1.tight_layout()
     fig1.savefig(filename.replace('.csv', '') + '_without_wls.png')
 
