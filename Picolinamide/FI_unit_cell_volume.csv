@@ -1,0 +1,6 @@
+﻿Identifier,Property,Value (Angstrom^3),Std,N,Name,Reference,Comment
+1,Unit cell volume @293K,1193.45,,,,http://dx.doi.org/10.1039/c2ce26244d,
+2,Unit cell volume @150K,1172.55,,,,http://dx.doi.org/10.1039/c2ce26244d,
+3,Unit cell volume @100K,1166.38,,,,http://dx.doi.org/10.1039/C4CE00265B,
+4,Unit cell volume @150K,1171.09,0.08,1,Tinnemans, This work,
+5,Unit cell volume @296K,1203.06,0.05,1,Baptista, This work,
