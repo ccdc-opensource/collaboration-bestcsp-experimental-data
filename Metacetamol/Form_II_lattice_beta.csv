@@ -1,5 +1,5 @@
 MENSEE04,,,,,,,
-Identifier, Property              , Value (Angstrom),          Std,   N,    Name,    Reference    ,                 Comment
+Identifier, Property              , Value (Degrees),          Std,   N,    Name,    Reference    ,                 Comment
 1, Unit cell beta @100K,90.6422,0.0347,     ,  Feliciano,    STSM-Parma,
 2, Unit cell beta @114K,90.6537,0.0344,     ,  Feliciano,    STSM-Parma,
 3, Unit cell beta @130K,90.5944,0.0452,     ,  Feliciano,    STSM-Parma,
