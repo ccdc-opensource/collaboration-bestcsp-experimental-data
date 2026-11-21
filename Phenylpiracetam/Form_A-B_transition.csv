@@ -1,3 +1,4 @@
 Phenylpiracetam,,,,,,,
-"Identifier,""	Property"",""		     Value (K)"",""		Std"","" 	N"",       Name,""	              Comment"",            Reference "
+Identifier,	Property,		     Value (K),		Std, 	N,       Name,	              Comment,            Reference 
 1,        Transition point,381.57,0.24, 3,Stejfa Vojtech,5 K/min (TA DSC Discovery 2500), Stejfa Vojtech email 12/03/2025
+2,        Transition point,   343    ,  8,        ,   Rekis_17  ,  slurry experiments  ,                        10.1021/acs.cgd.6b0186
